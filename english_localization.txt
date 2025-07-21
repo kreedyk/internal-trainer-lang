@@ -1,0 +1,1086 @@
+/*
+* Welcome to the Internal Trainer localization file!
+*
+* In an attempt to reach a wider audience (and be somewhat professional), my trainer supports multiple languages.
+* This is a universal file containing all the strings in the trainer.
+*
+* Thanks to all the translators for being a part of this!
+* -
+* -
+*
+* Mar 8 2025
+* -kreed
+* nia.kreedy.net
+*/
+
+
+    //=============================================================================
+    // 1. LANGUAGE NAMES AND BASIC UI ELEMENTS
+    //=============================================================================
+    English[TranslationKeys::LANG_NAME_ENGLISH] = "English";
+    English[TranslationKeys::LANG_NAME_PORTUGUESE] = "Portuguese";
+    English[TranslationKeys::LANG_NAME_CHINESE] = "中文";
+    English[TranslationKeys::CHINESE_LANGUAGE_NAME] = "ChineseLanguage";
+
+    // Main menu tabs
+    English[TranslationKeys::PLAYER] = "Player";
+    English[TranslationKeys::SWAPPING] = "Swapping";
+    English[TranslationKeys::VISUALS] = "Visuals";
+    English[TranslationKeys::SETTINGS] = "Settings";
+    English[TranslationKeys::SPECIALS] = "Specials";
+    English[TranslationKeys::CONFIGS] = "Configs";
+    English[TranslationKeys::SCRIPTS] = "Scripts";
+    English[TranslationKeys::EXTRAS] = "Extras";
+    English[TranslationKeys::MISC] = "Misc";
+
+    // Common UI elements and dialogs
+    English[TranslationKeys::YES] = "Yes";
+    English[TranslationKeys::CANCEL] = "Cancel";
+    English[TranslationKeys::OK] = "OK";
+    English[TranslationKeys::ERROR] = "Error";
+    English[TranslationKeys::JUMP] = "Jump";
+    English[TranslationKeys::IMPORTANT] = "Important:";
+    English[TranslationKeys::BELOW_SLIDER] = "(Ctrl + Click to input value)";
+
+    //=============================================================================
+    // 2. PLAYER FEATURES
+    //=============================================================================
+    English[TranslationKeys::PLAYER_CHEATS] = "Player Cheats";
+    English[TranslationKeys::PLAYER_INVINCIBLE] = "Player Invincible";
+    English[TranslationKeys::LOCK_HEALTH] = "Lock Health";
+    English[TranslationKeys::INFINITE_AMMO] = "Infinite Ammo";
+    English[TranslationKeys::INFINITE_AMMO_HELPMARK] = "Unlimited Bullets.";
+    English[TranslationKeys::ONE_HIT_KILL] = "One hit kill";
+    English[TranslationKeys::PLAYER_WONT_GET_HIT] = "Player won't get hit.";
+    English[TranslationKeys::HEALTH_DOESNT_DECREASE] = "Health doesn't decrease.";
+    English[TranslationKeys::KILL_ENEMIES_ONE_HIT] = "Kill enemies with one hit.";
+
+    // Movement and Speed
+    English[TranslationKeys::WALKING_SPEED] = "Walking Speed";
+    English[TranslationKeys::GENERAL_SPEED] = "General Speed";
+    English[TranslationKeys::FIRING_SPEED] = "Firing Speed";
+    English[TranslationKeys::WALKING_SPEED_HELPMARK] = "Increases walking speed, generally better than general speed.";
+    English[TranslationKeys::GENERAL_SPEED_HELPMARK] = "Increasing knife speed, jumping fences and climbing ladders.\n\nHowever reloading weapons will cause a desynchronization.";
+    English[TranslationKeys::INCREASES_FIRING_SPEED] = "Increases firing speed to maximum.\nIt is recommended to activate infinite ammo.";
+    English[TranslationKeys::MODERN_MOVEMENTS] = "Modern Movements";
+    English[TranslationKeys::MODERN_MOVEMENTS_HELPMARK] = "Attempts to modernize gameplay mechanics.\nImproved MouseTurn, sideways walk, and walk while aiming.";
+    English[TranslationKeys::SPEED_MULTIPLIER] = " Speed Multiplier";
+
+    // Health, Resources and Items
+    English[TranslationKeys::INFINITE_ITEM_STACK] = "Infinite Item Stack";
+    English[TranslationKeys::ITEM_STACK_HELPMARK] = "Items and ammunition stack up to 999.";
+    English[TranslationKeys::AUTO_PICK_UP] = "Auto Pick-Up";
+    English[TranslationKeys::AUTO_PICK_UP_HELPMARK] = "Automatically picks up from the ground when gets close.";
+    English[TranslationKeys::DROP_NEVER_DISAPPEAR] = "Drops Remain";
+    English[TranslationKeys::DROP_NEVER_DISAPPEAR_HELPMARK] = "Dropped items will remain permanently on the ground (never disappear)\n\nExcluding stage changes.";
+    English[TranslationKeys::RESTORE_HEALTH] = "Restore Health";
+    English[TranslationKeys::MAXIMIZE_HEALTH] = "Maximize Health";
+    English[TranslationKeys::MAXIMIZE_INVENTORY] = "Maximize Inventory";
+
+    // Collisions and Environment
+    English[TranslationKeys::DISABLE_COLLISION] = "Disable Collision";
+    English[TranslationKeys::DISABLE_COLLISION_HELPMARK] = "Allows you to walk through walls.\nUse the arrows to move up and down.";
+    English[TranslationKeys::EXPLORE_CUTSCENES] = "Explore Cutscenes";
+    English[TranslationKeys::EXPLORE_CUTSCENES_HELPMARK] = "Makes it possible to walk within cutscenes.";
+
+    // Player Size Control
+    English[TranslationKeys::LEON_SIZE_CONTROL] = "Size Control";
+    English[TranslationKeys::LEON_SIZE_CONTROL_HELPMARK] = "When enabled, the character size will be constantly maintained.";
+    English[TranslationKeys::LEON_PROPORTIONAL_SCALING] = "Proportional Scaling";
+    English[TranslationKeys::LEON_PROPORTIONAL_SCALING_HELPMARK] = "When enabled, all dimensions will scale equally.";
+    English[TranslationKeys::RESET_SIZE] = "Reset Size";
+    English[TranslationKeys::X_SIZE] = "X Size";
+    English[TranslationKeys::Y_SIZE] = "Y Size";
+    English[TranslationKeys::Z_SIZE] = "Z Size";
+    English[TranslationKeys::CURRENT_SIZE] = "Current Size";
+
+    //=============================================================================
+    // 3. COMBAT AND ENEMIES
+    //=============================================================================
+    English[TranslationKeys::COMBAT_CHEATS] = "Combat Cheats";
+    English[TranslationKeys::SURVIVAL_CHEATS] = "Survival Cheats";
+
+    // Enemy Controls
+    English[TranslationKeys::FREEZE_ENEMIES] = "Freeze Enemies";
+    English[TranslationKeys::FREEZE_ENEMIES_HELPMARK] = "Completely freezes all enemies.\n\nWhen enabled, use the configured key to toggle freeze state. Default Key: J";
+    English[TranslationKeys::FREEZE_EVERYTHING] = "Freeze Everything";
+    English[TranslationKeys::FREEZES_GAME_EXCEPT_YOU] = "Completely freezes the game, except you.\n\nWhen enabled, use the configured key to toggle freeze state. Default Key: L";
+    English[TranslationKeys::SHOW_ENEMY_HP] = "Enemy HP";
+    English[TranslationKeys::SHOWS_ENEMY_HP_TOOLTIP] = "Shows the targeted enemy health with custom optional bar.";
+
+    // Parry System
+    English[TranslationKeys::REMAKE_PARRY] = "Remake Parry";
+    English[TranslationKeys::REMAKE_PARRY_HELPMARK] = "Brings the remake mechanics to the classic game.";
+    English[TranslationKeys::AUTO_PARRY] = "Auto Parry";
+    English[TranslationKeys::PARRY_CONFIGURATION] = "Parry Configuration";
+    English[TranslationKeys::PARRY_SETTINGS] = "Parry Settings";
+    English[TranslationKeys::ONE_PARRY_TIME] = "Only one Parry can be activated at a time.";
+    English[TranslationKeys::AUTO_PARRY_OFF] = "Auto Parry is only available when a Parry is active.";
+    English[TranslationKeys::INFINITE_PARRY] = "Infinite Parry";
+    English[TranslationKeys::INFINITE_PARRY_HELPMARK] = "Disables the time-based durability mechanic.";
+    English[TranslationKeys::PARRY_COOLDOWN_ACTIVE] = "Cannot disable while blade is being sharpened.";
+    English[TranslationKeys::MAXIMUM_BLADE_DURABILITY] = " Maximum Blade Durability";
+    English[TranslationKeys::SHARPENING_TIME_MINUTES] = " Sharpening Time (minutes)";
+
+    // Weapons and Bullets
+    English[TranslationKeys::WEAPONS_SECTION] = "Weapons Section";
+    English[TranslationKeys::WEAPON_EXCLUSIVES] = "Weapon Exclusives";
+    English[TranslationKeys::SPECIAL_BULLETS] = "Special Bullets";
+    English[TranslationKeys::SPECIAL_BULLETS_TITLE] = "Enable Special Bullets";
+    English[TranslationKeys::NO_RELOAD_WASTE] = "No Reload Waste";
+    English[TranslationKeys::NO_RELOAD_WASTE_HELPMARK] = "Doesn't reduce ammo when reloading.";
+    English[TranslationKeys::BULLET_PENETRATION] = "Bullet Penetration";
+    English[TranslationKeys::BULLET_PENETRATION_HELPMARK] = "Makes all weapons penetrate through enemies, just like the Punisher.";
+    English[TranslationKeys::ONLY_ONE_SPECIAL_BULLET] = "Only one special bullet can be activated at a time.";
+    English[TranslationKeys::ONLY_ONE_EFFECT] = "Only one Flash effect can be activated at a time.";
+    
+    // Special Ammunition Types
+    English[TranslationKeys::EXPLOSIVE_BULLETS] = "Explosive Bullets";
+    English[TranslationKeys::FLAME_BULLETS] = "Flame Bullets";
+    English[TranslationKeys::EXPLOSIVE_BULLETS_HELPMARK] = "Fires special explosive bullets.\nFlame bullets will automatically turn off if enabled.";
+    English[TranslationKeys::FLAME_BULLETS_HELPMARK] = "Fires special bullets with flames.\nExplosive bullets will automatically turn off if enabled.";
+    English[TranslationKeys::SUPLEX_BULLETS] = "Suplex Bullets";
+    English[TranslationKeys::NECK_BREAK_BULLETS] = "Neck Break Bullets";
+    English[TranslationKeys::GRAB_BULLETS] = "Grab Bullets";
+    English[TranslationKeys::GENERIC_BULLETS_HELPMARK] = "Despite not having a character animation trigger, it still has a cool effect for fun.";
+    English[TranslationKeys::NECKBROKE_BULLETS_HELPMARK] = "performs the Hunk neck break upon hitting the enemy";
+
+    // Flash Effects
+    English[TranslationKeys::FLASH_FREEZE] = "Freeze Flash";
+    English[TranslationKeys::FLASH_FREEZE_TIME] = " Freeze Duration";
+    English[TranslationKeys::FLASH_FREEZE_HELPMARK] = "When a flash grenade explodes, all enemies will be frozen for the specified time.";
+    English[TranslationKeys::FLASH_PULVERIZE] = "Flash Pulverize";
+    English[TranslationKeys::FLASH_PULVERIZE_HELPMARK] = "When a flash grenade explodes, all enemies around will be instantly pulverized.\n\nOnly works with normal enemies.";
+
+    // Special Weapons
+    English[TranslationKeys::SUPER_PUNISHER] = "Super Punisher";
+    English[TranslationKeys::SUPER_PUNISHER_HELPMARK] = "Enhances the Punisher with custom attributes:\n"
+        "Firepower: 1.9 up to 6.0\n"
+        "Capacity: 16 up to 80\n"
+        "Penetration: 8 shots (5 without exclusive)\n"
+        "Fire Rate: Fast";
+
+    English[TranslationKeys::KRAUSER_ARM] = "Krauser Arm";
+    English[TranslationKeys::KRAUSER_ARM_HELPMARK] = "Grab Krauser's arm once every time you use a G+R+Y combined herb.\n\nTo see the aura effect you need to have a modded pl.udas with the appropriate eff in it.\nMy old trainer's files have it for all characters.\n\nWhen Ashley is present: To use the arm, press the call button twice quickly. Since arm and call ashley use the same button.";
+
+    // Weapon Switching
+    English[TranslationKeys::FAST_SWITCH] = "Fast Switch";
+    English[TranslationKeys::FAST_SWITCH_HELPMARK] = "Allows you to change weapons with the scroll wheel or with the keys 1-6.\nRemember to stand completely still to switch weapons.\n\nTip: keep the weapons next to each other in your inventory.";
+
+    // Knife Settings
+    English[TranslationKeys::KNIFE_DAMAGE] = "Knife Damage";
+    English[TranslationKeys::KNIFE_RANGE] = "Knife Range";
+    English[TranslationKeys::KNIFE_DAMAGE_VALUE] = "Knife Damage Value";
+    English[TranslationKeys::KNIFE_RANGE_VALUE] = "Knife Range Value";
+    English[TranslationKeys::KNIFE_DAMAGE_HELPMARK] = "Use the slider to set the knife current damage.";
+    
+    //=============================================================================
+    // 4. MELEE COMBAT SYSTEM
+    //=============================================================================
+    English[TranslationKeys::MELEES] = "Melees";
+    English[TranslationKeys::ANYTIME_MELEES] = "AnyTime Melees";
+    English[TranslationKeys::MELEE_NOTIFICATIONS] = "Melee Notifications";
+    English[TranslationKeys::MELEE_NOTIFICATIONS_HELPMARK] = "Shows notifications of which melee is currently active.";
+    English[TranslationKeys::ENABLE_MELEE_FEATURE] = "Enable Melee Feature";
+    English[TranslationKeys::ENABLE_MELEE_POPUP] = "Enabling this feature for the first time will restart from the last checkpoint.\nAre you sure you want to enable it?";
+    English[TranslationKeys::MELEE_ANYTIME] = "Melee Anytime";
+
+    // Melee Types
+    English[TranslationKeys::HIGH_MELEE] = "High Melee";
+    English[TranslationKeys::LOW_MELEE] = "Low Melee";
+    English[TranslationKeys::CUSTOM_MELEE] = "Custom Melee";
+
+    // Melee Randomizer
+    English[TranslationKeys::MELEE_RANDOMIZER] = "Melee Randomizer";
+    English[TranslationKeys::HIGH_MELEE_RANDOMIZER] = "High Melee";
+    English[TranslationKeys::LOW_MELEE_RANDOMIZER] = "Low Melee";
+    English[TranslationKeys::SECONDS] = "%.1f interval seconds";
+    English[TranslationKeys::ENABLE_MELEE_RANDOMIZER] = "Enable Melee Randomizer";
+
+    // Melee Settings
+    English[TranslationKeys::MELEE_DAMAGE] = "Melee Damage";
+    English[TranslationKeys::MELEE_DAMAGE_HELPMARK] = "Adjusts the power of melee attacks.";
+    English[TranslationKeys::MELEE_RANGE] = "Melee Range";
+    English[TranslationKeys::MELEE_RANGE_HELPMARK] = "Adjusts the distance the melee attack will hit enemies.";
+    English[TranslationKeys::WESKER_POWER] = "Wesker Power";
+    English[TranslationKeys::WESKER_POWER_HELPMARK] = "Gives the same effect of pushing the enemy away when performing melee.\n\nDamage is also increased!";
+    English[TranslationKeys::MELEE_DAMAGE_VALUE] = "Melee Damage Value";
+    English[TranslationKeys::MELEE_RANGE_VALUE] = "Melee Range Value";
+    English[TranslationKeys::WARNING_CANNOT_ENABLE_WITH_MANUAL_MELEE] = "Cannot be enabled while Manual Melee is active.";
+
+    //=============================================================================
+    // 5. ASHLEY RELATED FEATURES
+    //=============================================================================
+    English[TranslationKeys::ASHLEY] = "Ashley";
+    English[TranslationKeys::ASHLEY_CHEATS] = "Ashley Cheats";
+    English[TranslationKeys::ASHLEY_INVINCIBLE] = "Ashley Invincible";
+    English[TranslationKeys::WARNING_ASHLEY_CONTROL] = "Cannot be enabled while Krauser Controls Ashley is active.";
+
+    // Ashley Controls
+    English[TranslationKeys::ASHLEY_CONTROLS] = "Ashley Controls";
+    English[TranslationKeys::ASHLEY_TELEPORT] = "Teleport Ashley To Player";
+    English[TranslationKeys::ASHLEY_TELEPORT_HELPMARK] = "Press the configured hotkey to teleport Ashley to your current position. Default key: C";
+    English[TranslationKeys::ASHLEY_IGNORE_CHECKS] = "Ignore Ashley Checks";
+    English[TranslationKeys::ASHLEY_IGNORE_CHECKS_HELPMARK] = "Allows entering areas even when Ashley is not nearby.";
+
+    // Ashley Presence
+    English[TranslationKeys::ASHLEY_PRESENCE] = "Ashley Presence Mode";
+    English[TranslationKeys::ASHLEY_PRESENCE_NORMAL] = "Normal (Game Controlled)";
+    English[TranslationKeys::ASHLEY_PRESENCE_NORMAL_HELPMARK] = "Let the game control when Ashley is present.";
+    English[TranslationKeys::ASHLEY_PRESENCE_PRESENT] = "Always Present";
+    English[TranslationKeys::ASHLEY_PRESENCE_PRESENT_HELPMARK] = "Force Ashley to always be present";
+    English[TranslationKeys::ASHLEY_PRESENCE_NOT_PRESENT] = "Ashley not present";
+    English[TranslationKeys::ASHLEY_PRESENCE_NOT_PRESENT_HELPMARK] = "Removes Ashley completely.";
+
+    // Ashley Visual Effects
+    English[TranslationKeys::ASHLEY_VISUAL_EFFECTS] = "Ashley Visual Effects";
+    English[TranslationKeys::ASHLEY_WARNING_HUD] = "Warning HUD Effect";
+    English[TranslationKeys::ASHLEY_WARNING_HUD_HELPMARK] = "Shows the warning effect on Ashley's HUD";
+    English[TranslationKeys::ASHLEY_TO_LUIS] = "Replace with Luis";
+    English[TranslationKeys::ASHLEY_TO_LUIS_HELPMARK] = "Takes effect after restart checkpoint.\n\nIt is recommended that you have Teleport Ashley To Player turned on because Luis can get stuck.\nUse Ashley Always Present and Ignore Ashley Checks is also a good idea";
+
+    // Ashley Position Control
+    English[TranslationKeys::ASHLEY_POS_CONTROL] = "Ashley Position Control";
+    English[TranslationKeys::ASHLEY_LOCK_POS] = "Lock Position";
+    English[TranslationKeys::LOCK_POS_HELPMARK] = "Locks XYZ position (prevents movement).";
+    English[TranslationKeys::ASHLEY_GET_POS] = "Get Current Position";
+    English[TranslationKeys::ASHLEY_GET_POS_HELPMARK] = "It is recommended that you have Disable Collision turned on.\n\nIf you lose track of Ashley, use the Teleport Ashley To Player";
+    English[TranslationKeys::ASHLEY_X_POS] = "X Position:";
+    English[TranslationKeys::ASHLEY_Y_POS] = "Y Position:";
+    English[TranslationKeys::ASHLEY_Z_POS] = "Z Position:";
+    English[TranslationKeys::ASHLEY_APPLY_POS_ONCE] = "Apply Position (One-time)";
+    English[TranslationKeys::ASHLEY_APPLY_POS] = "Apply Position";
+    English[TranslationKeys::ASHLEY_CURRENT_POS] = "Current position";
+
+    // Ashley Size Control
+    English[TranslationKeys::ASHLEY_SIZE_CONTROL] = "Ashley Size Control";
+    English[TranslationKeys::ASHLEY_PROP_SCALING] = "Proportional Scaling";
+    English[TranslationKeys::ASHLEY_PROP_SCALING_HELPMARK] = "When enabled, all dimensions will scale equally to maintain proportions.";
+    English[TranslationKeys::ASHLEY_RESET_SIZE] = "Reset to Default Size";
+    English[TranslationKeys::ASHLEY_X_SIZE] = "X Size:";
+    English[TranslationKeys::ASHLEY_Y_SIZE] = "Y Size:";
+    English[TranslationKeys::ASHLEY_Z_SIZE] = "Z Size:";
+    English[TranslationKeys::ASHLEY_APPLY_SIZE] = "Apply Size";
+
+    // Ashley Animation
+    English[TranslationKeys::ASHLEY_TEXT_ANIM_SPEED] = "Ashley Animation Speed";
+    English[TranslationKeys::ASHLEY_RESET_SPEED] = "Reset to Default Speed";
+    English[TranslationKeys::ASHLEY_ANIM_SPEED] = "Animation Speed";
+    English[TranslationKeys::ASHLEY_APPLY_ANIM_SPEED] = "Apply Animation Speed";
+
+    //=============================================================================
+    // 6. CHARACTER AND SWAP FEATURES
+    //=============================================================================
+    English[TranslationKeys::CHARACTER] = "Character";
+    English[TranslationKeys::CHARACTER_SWAP] = "Character Swap";
+    English[TranslationKeys::CHARACTER_SWAP_TOGGLE] = "Character Swap";
+    English[TranslationKeys::MANUAL_CHARACTER_SWAP] = "Manual Character Swap";
+    English[TranslationKeys::WARNING_KRAUSER_ARM] = "Cannot be enabled while Krauser Arm is active.";
+
+    // Character Combos
+    English[TranslationKeys::CHARACTER_COMBO_LABEL] = " Character";
+    English[TranslationKeys::LEON_OUTFIT_COMBO_LABEL] = " Leon Outfit";
+    English[TranslationKeys::ASHLEY_OUTFIT_COMBO_LABEL] = " Ashley Outfit";
+    English[TranslationKeys::ADA_OUTFIT_COMBO_LABEL] = " Ada Outfit";
+    English[TranslationKeys::SWAP_BUTTON] = "Swap";
+
+    // Outfit Swapping
+    English[TranslationKeys::LEON_OUTFIT_SWAP_TOGGLE] = "Leon Outfit Swap";
+    English[TranslationKeys::LEON_OUTFIT_SWAP_EXPLANATION] = "Changes only Leon's outfit without activating extra features.";
+    English[TranslationKeys::SWAP_LEON_OUTFIT_BUTTON] = "Swap Leon Outfit";
+    English[TranslationKeys::ASHLEY_OUTFIT_SWAP_TOGGLE] = "Ashley Outfit Swap";
+    English[TranslationKeys::SWAP_ASHLEY_OUTFIT_BUTTON] = "Apply Outfit";
+
+    //=============================================================================
+    // 7. RANDOMIZER FEATURES
+    //=============================================================================
+    English[TranslationKeys::RANDOMIZER] = "Randomizer";
+    English[TranslationKeys::STAGE_RANDOMIZER] = "Stage Randomizer";
+    English[TranslationKeys::CHARACTER_RANDOMIZER] = "Character Randomizer";
+    English[TranslationKeys::CHARACTER_RANDOMIZER_TITLE] = "Character Randomizer";
+    English[TranslationKeys::ENEMY_RANDOMIZER] = "Enemy Randomizer";
+
+    // Randomizer Settings
+    English[TranslationKeys::ENABLE_ENEMY_RANDOMIZER] = "Enemy Randomizer";
+    English[TranslationKeys::ENABLE_CHARACTER_RANDOMIZER] = "Character Randomizer";
+    English[TranslationKeys::GENERATE_NEW_SEED] = "Generate New Seed";
+    English[TranslationKeys::TEXT_GENERATING_NEW_SEED] = "Generating New Seed...";
+    English[TranslationKeys::TEXT_SEED_GENERATED_SUCCESS] = "Seed Generated Successfully!";
+    English[TranslationKeys::CANT_ACTIVATE_IN_MENU] = "This feature cannot be activated in the menu.";
+    English[TranslationKeys::ONLY_IN_GAME] = "This feature can only be enabled in-game.";
+    English[TranslationKeys::ONLY_ONE_CAN_ACTIVATE] = "Only one can be active at a time";
+    English[TranslationKeys::SWAP_DISABLED_RANDOMIZER] = "This feature is disabled while the Character Randomizer is active.";
+
+    // Randomizer Info and Warnings
+    English[TranslationKeys::AVOID_SOFTLOCKS] = "To avoid softlocks as much as possible, the code first goes through all the areas in the Village, considering keys for progression.\n"
+        "- Checks for availability of keys required for current stage\n"
+        "- Creates an 'Open' on dead-end maps, look for the Open command on one-way maps, usually at the end of them\n"
+        "- Confirms that the player can advance without getting stuck\n\n"
+        "Once all areas are visited, the randomizer moves on to the Castle and subsequently to the Island.\n"
+        "This processing order (Village > Castle > Island) ensures that the game remains completable regardless of the random distribution of maps.";
+
+    English[TranslationKeys::TRY_ALL_STAGES] = "If you want to try randomizing all stages you can use this one (I'm not responsible :P)";
+    English[TranslationKeys::GET_SOFTLOCK] = "If you somehow get softlock, use the Emergency Tools";
+    English[TranslationKeys::ENEMY_RANDOMIZER_TOOLTIP] = "At any point during the game, you can generate a new seed.\n\nSimply restart checkpoint, and the enemies will be changed.";
+    English[TranslationKeys::DOOR_RANDOMIZATION_HELP] = "This will add about a second to the loading time.";
+    English[TranslationKeys::DOOR_WARNING_TITLE] = "Randomization Warning";
+    English[TranslationKeys::DOOR_WARNING_MESSAGE] = "Due to how the game handles character changes, this will add about a second to the loading time.";
+
+    // Character Randomizer Dialog
+    English[TranslationKeys::CHARACTER_RANDOMIZER_MESSAGE_WITH_STAGE] =
+        "Activating this feature will restart from the last checkpoint.\n\n"
+        "WARNING: Having both Character Randomizer and Stage Randomizer active "
+        "will increase loading times by approximately 2 seconds.\n\n"
+        "Do you want to continue?";
+    English[TranslationKeys::WARNING_LOADING_TIME_TITLE] = "Loading Time Warning";
+    English[TranslationKeys::WARNING_LOADING_TIME_MESSAGE] = "Having both Character Randomizer and Stage Randomizer active will increase loading times by approximately 2 seconds.\n\nDo you want to continue?";
+
+    //=============================================================================
+    // 8. MERCENARIES MODE
+    //=============================================================================
+    English[TranslationKeys::MERCENARIES] = "Mercenaries";
+    English[TranslationKeys::MERCENARIES_CHEATS] = "Mercenaries Cheats";
+
+    // Score and Timers
+    English[TranslationKeys::SCORE] = "Total Score";
+    English[TranslationKeys::KILL_ROW] = "Kill Row";
+    English[TranslationKeys::KILL_ROW_TIMER] = "Kill Row Timer";
+    English[TranslationKeys::BONUS_TIME_KILL_ROW] = "Bonus Time Kill Row";
+    English[TranslationKeys::REWARD_TIMER] = "Reward Timer";
+    English[TranslationKeys::TIMER] = "Main Timer";
+    English[TranslationKeys::PAUSE_TIMER] = "Timer flag";
+
+    // Mercenaries Mode Tooltips
+    English[TranslationKeys::SCORE_TOOLTIP] = "Set or lock your current score.\nRange: 0-999,999";
+    English[TranslationKeys::KILL_ROW_TOOLTIP] = "Set or lock your current kill streak.\nRange: 0-999";
+    English[TranslationKeys::KILL_ROW_TIMER_TOOLTIP] = "Set or lock your kill streak timer.\nEnter time in minutes (0.5 = 30 seconds)";
+    English[TranslationKeys::BONUS_TIME_KILL_ROW_TOOLTIP] = "Set or lock your bonus time score.\nRange: 0-999,999";
+    English[TranslationKeys::REWARD_TIMER_TOOLTIP] = "Set or lock your reward timer.\nEnter time in minutes (0.5 = 30 seconds)";
+    English[TranslationKeys::MAIN_TIMER_TOOLTIP] = "Set or lock the main timer.\nEnter time in minutes (2.0 = 2 minutes)";
+    English[TranslationKeys::PAUSE_TIMER_TOOLTIP] = "Pauses all timer flags.\n\nIncluding Jetski and the Krauser stage explosion";
+
+    // Text and Message Control
+    English[TranslationKeys::INSTANT_TEXT] = "Insta Text";
+    English[TranslationKeys::DISABLE_MESSAGES] = "Disable Text";
+    English[TranslationKeys::INSTANT_TEXT_TOOLTIP] = "Makes initial mercenaries text appear instantly";
+    English[TranslationKeys::DISABLE_MESSAGES_TOOLTIP] = "Completely removes initial mercenaries text";
+
+    // Reset Controls
+    English[TranslationKeys::RESET_ALL_VALUES_BUTTON] = "Reset All Values";
+    English[TranslationKeys::RESET_VALUES_TOOLTIP] = "Reset all values to their defaults";
+
+    //=============================================================================
+    // 9. VISUAL SETTINGS
+    //=============================================================================
+    English[TranslationKeys::HUD] = "HUD";
+    English[TranslationKeys::HUD_SETTINGS] = "HUD Settings";
+    English[TranslationKeys::ENVIRONMENT_SETTINGS] = "Environment Settings";
+    English[TranslationKeys::REMOVE_HUD] = "Remove HUD";
+
+    // HUD Color Options
+    English[TranslationKeys::WHITE_HUD] = "White HUD";
+    English[TranslationKeys::BLACK_HUD] = "Black HUD";
+    English[TranslationKeys::PURPLE_HUD] = "Purple HUD";
+    English[TranslationKeys::BLUE_HUD] = "Blue HUD";
+    English[TranslationKeys::RED_HUD] = "Red HUD";
+    English[TranslationKeys::RED_GREEN_ORANGE_HUD] = "Red/Green/Orange HUD";
+    English[TranslationKeys::BLUE_YELLOW_WHITE_HUD] = "Blue/Yellow/White HUD";
+    English[TranslationKeys::CUSTOM_HUD] = "Custom HUD Color";
+    English[TranslationKeys::CUSTOM_HUD_HELPMARK] = "Choose a custom color for the HUD.";
+    English[TranslationKeys::RGB_HUD] = "Rainbow HUD";
+    English[TranslationKeys::RGB_HUD_HELPMARK] = "Color changes in real time.\nAutomatically updates colors when changing rooms.";
+
+    // Environment and Visual Effects
+    English[TranslationKeys::ENVIRONMENT] = "Environment";
+    English[TranslationKeys::THERMAL_COLOR] = "Thermal Vision Color";
+    English[TranslationKeys::BRIGHTNESS_CONTROL] = "Brightness Control";
+    English[TranslationKeys::VISUAL_EFFECTS] = "Visual Effects";
+    English[TranslationKeys::TAKES_EFFECT_AFTER_RESTART] = "Takes effect after restart checkpoint.";
+
+    // Camera Settings
+    English[TranslationKeys::CAMERA_MOD] = "Camera Modifications";
+    English[TranslationKeys::CAMERA_POSITION] = "Camera Position";
+    English[TranslationKeys::CAMERA_FREEZE] = "Freeze Camera";
+    English[TranslationKeys::CAMERA_ADA] = "Ada Camera";
+    English[TranslationKeys::CAMERA_LEON] = "Leon Camera";
+    English[TranslationKeys::CAMERA_WARNING_ADA] = "Cannot be enabled while Leon Camera is active";
+    English[TranslationKeys::CAMERA_WARNING_LEON] = "Cannot be enabled while Ada Camera is active";
+    English[TranslationKeys::FOV_OVERRIDE] = "FOV Override";
+    English[TranslationKeys::FOV_CHANGE] = "Field of View";
+    English[TranslationKeys::CAMERA_PERSPECTIVE_INFO] = "Change the camera position or perspective.";
+
+    // Lighting
+    English[TranslationKeys::LIGHTING_OVERRIDES] = "Lighting Overrides";
+
+    // Camera Perspective
+    English[TranslationKeys::CAMERA_PERSPECTIVE] = "Camera View Perspective";
+    English[TranslationKeys::DEFAULT_CAMERA] = "Default Game Camera";
+    English[TranslationKeys::LEON_SOLO] = "Leon Solo";
+    English[TranslationKeys::LEON_WITH_ASHLEY] = "Leon with Ashley";
+    English[TranslationKeys::DEFAULT_CAMERA_DESC] = "Game's default camera behavior";
+    English[TranslationKeys::LEON_SOLO_DESC] = "Camera optimized for Leon when alone";
+    English[TranslationKeys::LEON_WITH_ASHLEY_DESC] = "Camera optimized for Leon with Ashley";
+
+    // Advanced Visual Effects
+    English[TranslationKeys::CINEMATIC_BARS] = "Cinematic Bars";
+    English[TranslationKeys::CINEMATIC_BARS_HELPMARK] = "Adds cinematic black bars to the top and bottom of the screen.";
+    English[TranslationKeys::DISABLE_SHADOW] = "Disable Shadow";
+    English[TranslationKeys::DISABLE_SHADOW_HELPMARK] = "Makes the game look like 2007 version (without Shadow Lightning).";
+    English[TranslationKeys::TYPEWRITER_INFO] = "Typewriter Info";
+    English[TranslationKeys::TYPEWRITER_INFO_HELPMARK] = "Adds Stage ID(Rxxx) and room name on typewriter.";
+
+    // Crosshair Settings
+    English[TranslationKeys::LINE_OF_SIGHT] = "Line of sight";
+    English[TranslationKeys::AIM_POINT] = "Aim Point";
+    English[TranslationKeys::RAINBOW_MODE] = "Rainbow Mode";
+    English[TranslationKeys::RAINBOW_MODE_HELP] = "Makes crosshair cycle through colors";
+    English[TranslationKeys::RAINBOW_SPEED] = "Speed";
+    English[TranslationKeys::RAINBOW_LINE] = "Rainbow Line of Sight";
+    English[TranslationKeys::RAINBOW_AIM] = "Rainbow Aim Point";
+
+    //=============================================================================
+    // 10. INTERFACE SETTINGS
+    //=============================================================================
+    English[TranslationKeys::INTERFACE] = "Interface";
+    English[TranslationKeys::INTERFACE_SETTINGS] = "Interface Settings";
+    English[TranslationKeys::MISC_INTERFACE] = "Misc Interface";
+
+    // Color Settings
+    English[TranslationKeys::COLORS_SECTION] = "Colors";
+    English[TranslationKeys::TAB_COLORS] = "Tab Colors";
+    English[TranslationKeys::BACKGROUND_COLORS] = "Background Colors";
+    English[TranslationKeys::LINE_COLORS] = "Line Colors";
+    English[TranslationKeys::BUTTON_COLORS] = "Button Colors";
+    English[TranslationKeys::COMBO_COLORS] = "Combo Colors";
+
+    // Rainbow Effect
+    English[TranslationKeys::RAINBOW_INTERFACE] = "Rainbow Interface";
+    English[TranslationKeys::RAINBOW_INTERFACE_DESC] = "Apply color cycling effect to the interface.";
+    English[TranslationKeys::REAL_TIME_CONFIG] = "Real Time Config";
+    English[TranslationKeys::REAL_TIME_CONFIG_DESC] = "Adjust rainbow effect settings in real-time.";
+    English[TranslationKeys::RAINBOW_MUST_BE_ENABLED] = "Rainbow Interface must be enabled.";
+
+    // Language Selection
+    English[TranslationKeys::INTERFACE_LANGUAGE] = "Interface Language";
+    English[TranslationKeys::LANGUAGE_SELECT] = "Select Language:";
+    English[TranslationKeys::TEXT_LANGUAGE_CONTRIBUTION] = "If you want your language here\ncontact me and help with translations file";
+
+    // UI Scaling
+    English[TranslationKeys::UI_SCALING] = "UI Scaling";
+    English[TranslationKeys::UI_SCALING_DESC] = "Adjusts the size of all UI elements and text.\nUseful for those who play on TV or very large screens.";
+    English[TranslationKeys::TEXT_CURRENT_SCALE] = "Current scale: %.1fx";
+    English[TranslationKeys::BUTTON_RESET_SCALE] = "Reset to 1.0x";
+
+    // Color Picker
+    English[TranslationKeys::COLOR_PICKER_TAB] = "Tab";
+    English[TranslationKeys::COLOR_PICKER_BG] = "BG";
+    English[TranslationKeys::COLOR_PICKER_LINE] = "Line";
+    English[TranslationKeys::COLOR_PICKER_COMBO] = "Combo";
+    English[TranslationKeys::COLOR_PICKER_BUTTON] = "Button";
+    English[TranslationKeys::TOOLTIP_COLOR_READABILITY] = "The color will be automatically adjusted to maintain text readability.";
+
+    // Reset Buttons
+    English[TranslationKeys::BUTTON_RESET_TAB_COLORS] = "Reset Tab Colors";
+    English[TranslationKeys::BUTTON_RESET_BACKGROUND_COLOR] = "Reset Background Colors";
+    English[TranslationKeys::BUTTON_RESET_LINE_COLOR] = "Reset Line Colors";
+    English[TranslationKeys::BUTTON_RESET_COMBO_COLORS] = "Reset Combo Colors";
+    English[TranslationKeys::BUTTON_RESET_BUTTON_COLORS] = "Reset Button Colors";
+
+    // Rainbow Configuration
+    English[TranslationKeys::RAINBOW_CONFIG_WINDOW] = "Rainbow Config";
+    English[TranslationKeys::SLIDER_SPEED] = "Speed";
+    English[TranslationKeys::SLIDER_INTENSITY] = "Intensity";
+    English[TranslationKeys::SLIDER_SATURATION] = "Saturation";
+    English[TranslationKeys::SLIDER_BRIGHTNESS] = "Brightness";
+    English[TranslationKeys::SLIDER_ALPHA] = "Alpha";
+    English[TranslationKeys::BUTTON_RESET_DEFAULTS] = "Reset to Defaults";
+
+    // HP Bar Settings
+    English[TranslationKeys::TAB_HP_BAR] = "HP Bar";
+    English[TranslationKeys::DYNAMIC_HP_COLOR] = "Dynamic HP Color";
+    English[TranslationKeys::RAINBOW_EFFECT] = "Rainbow Effect";
+    English[TranslationKeys::CUSTOM_COLOR] = "Custom Color";
+    English[TranslationKeys::RESET_COLOR] = "Reset Color";
+    English[TranslationKeys::HP_POSITION_SETTINGS] = "HP Position Settings:";
+    English[TranslationKeys::POSITION_PRESETS] = "Position Presets:";
+    English[TranslationKeys::COMBO_POSITION] = "Position";
+    English[TranslationKeys::HP_BAR_SETTINGS] = "HP Bar Settings:";
+    English[TranslationKeys::SHOW_HP_BAR] = "Show HP Bar";
+    English[TranslationKeys::SHOW_ONLY_HP_BAR] = "Show Only HP Bar";
+    English[TranslationKeys::TAB_SIZE_POSITION] = "Size & Position";
+    English[TranslationKeys::BAR_HEIGHT] = "Bar Height";
+    English[TranslationKeys::BAR_WIDTH] = "Bar Width";
+    English[TranslationKeys::TAB_APPEARANCE] = "Appearance";
+    English[TranslationKeys::APPEARANCE_SETTINGS] = "Appearance Settings:";
+    English[TranslationKeys::BORDER_SIZE] = "Border Size";
+    English[TranslationKeys::CORNER_ROUNDNESS] = "Corner Roundness";
+    English[TranslationKeys::CUSTOM_BG_OPACITY] = "Custom Background Opacity";
+    English[TranslationKeys::BG_OPACITY] = "Background Opacity";
+    English[TranslationKeys::TEXT_DISPLAY] = "Text Display:";
+    English[TranslationKeys::SHOW_PERCENTAGE] = "Show Percentage";
+    English[TranslationKeys::SHOW_HP_VALUE] = "Show HP Value";
+    English[TranslationKeys::EFFECTS_TAB] = "Effects";
+    English[TranslationKeys::GLOWING_BORDER] = "Glowing Border";
+    English[TranslationKeys::GLOW_INTENSITY] = "Glow Intensity";
+    English[TranslationKeys::PULSE_EFFECT] = "Pulse Effect";
+    English[TranslationKeys::PULSE_SPEED] = "Pulse Speed";
+    English[TranslationKeys::CRITICAL_HP_PULSE] = "Critical HP Fast Pulse";
+    English[TranslationKeys::DAMAGE_FLASH_EFFECT] = "Damage Flash Effect";
+    English[TranslationKeys::SMOOTH_HP_ANIMATION] = "Smooth HP Animation";
+
+    //=============================================================================
+    // 11. UTILITY FEATURES
+    //=============================================================================
+    English[TranslationKeys::MISC_FEATURES] = "Misc Features";
+    English[TranslationKeys::UTILITY_FEATURES] = "Utility Features";
+    English[TranslationKeys::MISC_SETTINGS] = "Misc Settings";
+    English[TranslationKeys::MISC_CHEATS] = "Misc Cheats";
+
+    // Action Buttons
+    English[TranslationKeys::ACTION_BUTTONS] = "Action Buttons";
+    English[TranslationKeys::UNLOCK_ALL] = "Unlock All";
+    English[TranslationKeys::SUCCESSFULLY_UNLOCKED] = "Successfully unlocked!";
+    English[TranslationKeys::UNLOCK_ALL_MERCHANT_ITEMS] = "Unlock all merchant items.";
+    English[TranslationKeys::OPEN_MERCHANT] = "Open Merchant";
+    English[TranslationKeys::OPEN_SAVE] = "Open Save";
+    English[TranslationKeys::OPENING_SAVE] = "Opening save...";
+    English[TranslationKeys::OPENING_MERCHANT] = "Opening merchant...";
+
+    // Cheats
+    English[TranslationKeys::INTERACTION_CHEATS] = "Interaction Cheats";
+    English[TranslationKeys::RESOURCE_CHEATS] = "Resource Cheats";
+
+    // VRAM Cleaner
+    English[TranslationKeys::VRAM_INFO] = "This function clears the VRAM when changing areas, preventing crashes due to memory leaks.\n\nIt acts as if the game was closed and reopened, but without interrupting your gameplay.\nRecommended to leave it activated for long gaming sessions.";
+    English[TranslationKeys::VRAM_CLEANER_TITLE] = "VRAM Cleaner";
+    English[TranslationKeys::CLEANUPS_IN_SESSION] = "Cleanings in this session: %d";
+
+    // Resource Manipulation
+    English[TranslationKeys::PLAGA_SPAWN] = "Plaga Manipulation";
+    English[TranslationKeys::PLAGA_HELPMARK] = "Enemies have a property that allows or not to spawn plagas.\nFor those who have it, you can configure the chance of spawning.\n\nIt's worth remembering that this is only for enemies that have properly plaga set.\nIf you want 100% plaga spawn you can use the checkbox below.";
+    English[TranslationKeys::PLAGA_100] = "Always Spawn Plaga";
+    English[TranslationKeys::PLAGA_100_HELPMARK] = "Every single enemy you kill will spawn plaga.";
+    English[TranslationKeys::RANDOM_PTAS] = "Ptas Manipulation";
+    English[TranslationKeys::MONEY_HELPMARK] = "You can manipulate the amount of money that enemies can drop.\n\nTo avoid being so overpowered, not all money drops will be increased/decreased.";
+    English[TranslationKeys::CURRENT_MONEY] = "Current Money: %d";
+    English[TranslationKeys::ADD_AMOUNT] = "Add Amount";
+    English[TranslationKeys::ADD_MONEY] = "Add Money";
+    English[TranslationKeys::SET_SPECIFIC_VALUE] = "Set Specific Value:";
+
+    // Auto-Save
+    English[TranslationKeys::AUTO_SAVE] = "Auto-Save";
+    English[TranslationKeys::AUTO_SAVE_HELPMARK] = "Your progress will be automatically saved in the last slot used.\n\nThere's no risk of data corruption, but since the system saves on its own, it might overwrite a slot you didn't want to change.\n\nTip: If you plan to use the autosave feature, it's recommended always using the same slot to avoid overwriting important saves.";
+    English[TranslationKeys::TEXT_SAVE_INTERVAL] = " Save interval (minutes)";
+    English[TranslationKeys::CHECKBOX_AUTO_CONFIRM] = "Auto-confirm";
+    English[TranslationKeys::HELP_AUTO_CONFIRM] = "Enabled by default, automatically confirms saves without requiring manual interaction";
+    English[TranslationKeys::CHECKBOX_NOTIFICATION_MODE] = "Notification-mode";
+    English[TranslationKeys::HELP_NOTIFICATION_MODE] = "Shows a notification when it's time to save, waits for a hotkey to be pressed to proceed.\n\nDefault key: F5";
+    English[TranslationKeys::AUTOSAVE_POPUP_TITLE] = "Auto-Save System Information";
+    English[TranslationKeys::AUTOSAVE_POPUP_MESSAGE] = "IMPORTANT: When Auto-Save is about to trigger (less than 1 second remaining) with Auto-confirm enabled, your character will briefly freeze. This is intentional to prevent any input from interfering with the save process.\n\nPlease avoid pressing any keys or clicking the mouse during this moment. While the system has protective measures in place, this warning is provided to minimize any interruption to autosave.";
+    English[TranslationKeys::AUTOSAVE_CONFIRM_TEXT] = "I Understand";
+    English[TranslationKeys::AUTOSAVE_CANCEL_TEXT] = "Disable Auto-Save";
+    English[TranslationKeys::GAME_SAVED_SUCCESSFULLY] = "Game saved successfully!";
+    English[TranslationKeys::SAVE_MENU_OPENED] = "Save menu opened";
+    English[TranslationKeys::AUTO_SAVE_NO_WINDOW] = "Auto-save: Couldn't find game window";
+    English[TranslationKeys::SAVE_OPENED_SUCCESS] = "Save opened successfully! Consider saving the game";
+    English[TranslationKeys::AUTO_SAVE_PENDING] = "Auto-save pending - waiting for gameplay to resume";
+    English[TranslationKeys::AUTO_SAVE_IN] = "Auto-save in ";
+    English[TranslationKeys::AUTO_SAVE_STARTED] = "Auto-save timer started: ";
+    English[TranslationKeys::AUTO_SAVE_MINUTE] = " minute";
+    English[TranslationKeys::AUTO_SAVE_MINUTES] = " minutes";
+    English[TranslationKeys::AUTO_SAVE_RESUMED] = "Auto-save timer resumed";
+    English[TranslationKeys::AUTO_SAVE_PAUSED] = "Auto-save timer paused";
+    English[TranslationKeys::PRESS_TO_SAVE_PREFIX] = "Press ";
+    English[TranslationKeys::PRESS_TO_SAVE_SUFFIX] = " to save the game";
+    English[TranslationKeys::AUTO_SAVE_PAUSED_FOCUS] = "Auto-save paused: Game lost focus";
+    English[TranslationKeys::AUTO_SAVE_RESUMED_FOCUS] = "Auto-save resumed: Game back in focus";
+    English[TranslationKeys::WARNING_DISABLE_NOTIFICATION_MODE] = "Disable Notification-mode first to enable Auto-confirm. These features are mutually exclusive.";
+    English[TranslationKeys::WARNING_DISABLE_AUTO_CONFIRM] = "Disable Auto-confirm first to enable Notification-mode. These features are mutually exclusive.";
+
+    // Auto-Heal System
+    English[TranslationKeys::AUTO_HEAL] = "Auto-Heal";
+    English[TranslationKeys::AUTO_HEAL_INFO] = "Automatically uses healing items when health falls below set thresholds.";
+    English[TranslationKeys::SETTINGS_TAB] = "Settings";
+    English[TranslationKeys::HEALTH_THRESHOLDS] = " Health Thresholds:";
+    English[TranslationKeys::ALLOWED_ITEMS] = " Allowed Healing Items:";
+    English[TranslationKeys::FIRST_AID_SPRAY] = "First Aid Spray";
+    English[TranslationKeys::MIXED_HERBS_RGY] = "Mixed Herbs (R+G+Y)";
+    English[TranslationKeys::MIXED_HERBS_RG] = "Mixed Herbs (R+G)";
+    English[TranslationKeys::GOLD_EGG] = "Gold Egg";
+    English[TranslationKeys::GREEN_HERBS_3X] = "Green Herbs (x3)";
+    English[TranslationKeys::HOW_IT_WORKS] = "How it works";
+    English[TranslationKeys::AUTO_HEAL_DESC_1] = "The system monitors and automatically uses healing items when your health drops below the thresholds.";
+    English[TranslationKeys::AUTO_HEAL_DESC_2] = "Items are used in the following priority order:";
+    English[TranslationKeys::AUTO_HEAL_DESC_3] = "Disable specific items if you want to conserve them";
+    English[TranslationKeys::AUTO_HEAL_DESC_4] = "By default it's already setup to use in caution or danger.";
+    English[TranslationKeys::CAUTION_THRESHOLD] = "Caution";
+    English[TranslationKeys::DANGER_THRESHOLD] = "Danger";
+    English[TranslationKeys::CURRENT_HEALTH] = "Current Health";
+    English[TranslationKeys::MAXIMUM_HEALTH] = "Maximum Health";
+    English[TranslationKeys::COMBINED_HERB] = "Combined Herb (+60 HP)";
+
+    // Quick Restart
+    English[TranslationKeys::QUICK_RESTART] = "Quick Restart";
+    English[TranslationKeys::QUICK_RESTART_HELPMARK] = "Press the configured hotkey to restart from the last checkpoint.\n\nDefault key: END";
+
+    // Extended Inventory
+    English[TranslationKeys::EXTENDED_INVENTORY] = "Extended Inventory";
+    English[TranslationKeys::EXTENDED_INVENTORY_HELPMARK] = "Allows you to store items in the right side area, without them being deleted when leaving the inventory.";
+
+    // Auto QTE
+    English[TranslationKeys::AUTO_QTE] = "Auto QTE";
+    English[TranslationKeys::AUTO_QTE_HELPMARK] = "Automatically completes Quick Time Events.";
+
+    // Disable Music
+    English[TranslationKeys::DISABLE_BGM] = "Disable Music";
+    English[TranslationKeys::DISABLE_BGM_HELPMARK] = "Removes background music from the game while keeping sound effects.";
+
+    // Increased Drops
+    English[TranslationKeys::INCREASED_DROPS] = "Always Drop Itens";
+    English[TranslationKeys::INCREASED_DROPS_HELPMARK] = "Increases the chance of enemies dropping items.";
+
+    // Stable Laser
+    English[TranslationKeys::STABLE_LASER] = "Stable Laser";
+    English[TranslationKeys::STABLE_LASER_HELPMARK] = "Removes aiming shake and makes laser sight completely stable.";
+
+    // Force Filter
+    English[TranslationKeys::FORCE_FILTER4] = "Force Filter 4";
+    English[TranslationKeys::FORCE_FILTER4_HELPMARK] = "Forces the in-game filter to be always 4.\n\nUseful for modders to implement their own gradients and not allow the user to remove them.";
+
+    // Panic Mode
+    English[TranslationKeys::PANIC_MODE] = "Panic Mode";
+    English[TranslationKeys::PANIC_MODE_TOOLTIP] = "Disables all active features at once";
+
+    //=============================================================================
+    // 12. HOTKEYS
+    //=============================================================================
+    English[TranslationKeys::HOTKEYS] = "Hotkeys";
+    English[TranslationKeys::TOGGLE_HOTKEYS] = "Toggle Hotkeys";
+    English[TranslationKeys::FEATURE_TOGGLES] = "Feature Toggles";
+    English[TranslationKeys::TEXT_QUICK_ACCESS] = "Quick Access";
+
+    // Window Hotkeys
+    English[TranslationKeys::WINDOW_HOTKEYS] = "Window Hotkeys";
+    English[TranslationKeys::WINDOW_CONTROLS] = "Window Controls";
+    English[TranslationKeys::OPEN_MAIN_MENU] = "Open Main Menu";
+    English[TranslationKeys::OPEN_MEMORY_EDITOR] = "Open Memory Editor";
+
+    // Gameplay Hotkeys
+    English[TranslationKeys::GAMEPLAY_HOTKEYS] = "Gameplay Hotkeys";
+    English[TranslationKeys::GAMEPLAY_CONTROLS] = "Gameplay Controls";
+    English[TranslationKeys::TOGGLE_SPEEDHACK] = "Toggle SpeedHack";
+    English[TranslationKeys::TOGGLE_DISABLE_COLLISION] = "Toggle Disable Collision";
+
+    // Combat Hotkeys
+    English[TranslationKeys::COMBAT_HOTKEYS] = "Combat Hotkeys";
+
+    // Custom Keys Hint
+    English[TranslationKeys::TEXT_CUSTOM_KEYS_HINT] = "Set custom keys in the hotkeys section.";
+
+    //=============================================================================
+    // 13. INVENTORY AND ITEMS
+    //=============================================================================
+    English[TranslationKeys::GET_ITEM] = "Get Item";
+    English[TranslationKeys::ITEM_ID] = "Item ID";
+    English[TranslationKeys::AMOUNT] = "Amount";
+    English[TranslationKeys::ITEM_ACQUIRED] = "Item acquired!";
+    English[TranslationKeys::ITEM_TO_INVENTORY] = "The item will go directly to your inventory";
+    English[TranslationKeys::CLICK_SHOW_PREVIEW] = "Click to show preview";
+
+    // Inventory Viewer
+    English[TranslationKeys::INVENTORY_VIEWER] = "Inventory Viewer";
+    English[TranslationKeys::INVENTORY_TRACKER] = "Inventory Tracker";
+
+    //=============================================================================
+    // 14. STAGES AND AREAS
+    //=============================================================================
+    English[TranslationKeys::STAGES] = "Stages";
+    English[TranslationKeys::AREA_JUMP] = "Area Jump";
+    English[TranslationKeys::ROOM_INPUT_HELP] = "Use the input below to insert the room you want to enter";
+    English[TranslationKeys::ST_TABS_HELP] = "You can browse the ST tabs or search for a specific room";
+    English[TranslationKeys::TEXT_SELECT_ROOM_TELEPORT] = "Select a room to teleport";
+    English[TranslationKeys::TEXT_TELEPORT_INSTRUCTIONS] = "Browse the tabs or search for a room.\nDouble-click to teleport!";
+
+    //=============================================================================
+    // 15. TOOLS AND EDITORS
+    //=============================================================================
+    English[TranslationKeys::MEMORY_EDITOR] = "Memory Editor";
+    English[TranslationKeys::HEX_EDITOR] = "Hex Editor";
+    English[TranslationKeys::MEMORY_USAGE] = "Usage:";
+
+    // Memory Editor
+    English[TranslationKeys::LABEL_MEMORY_ADDRESS] = "Memory Address";
+    English[TranslationKeys::LABEL_MEMORY_SIZE] = "Memory Size";
+    English[TranslationKeys::BUTTON_SEARCH_ADDRESS] = "Search Address";
+    English[TranslationKeys::POPUP_INVALID_ADDRESS] = "Invalid Address";
+    English[TranslationKeys::TEXT_INVALID_ADDRESS_MESSAGE] = "Invalid address, please enter a valid address";
+    English[TranslationKeys::TEXT_ADDRESS_RANGE_MESSAGE] = "Address must be between %X and %X";
+
+    // Subtabs
+    English[TranslationKeys::SUBTAB_STAGES] = "Stages";
+    English[TranslationKeys::SUBTAB_INVENTORY] = "Inventory";
+    English[TranslationKeys::SUBTAB_HEX_EDITOR] = "Hex Editor";
+
+    //=============================================================================
+    // 16. MODLOADER
+    //=============================================================================
+    English[TranslationKeys::MODLOADER] = "Modloader";
+    English[TranslationKeys::ONLINE_MODS_BUTTON] = "Online Mods";
+    English[TranslationKeys::LOCAL_MODS_BUTTON] = "Local Mods";
+    English[TranslationKeys::UPDATE_MODS_BUTTON] = "Update Mods";
+    English[TranslationKeys::MOD_MANAGER_WELCOME] = "Welcome to the Mod Manager!";
+
+    // Mod Manager Info
+    English[TranslationKeys::ONLINE_MODS_SYSTEM_DESCRIPTION] = "Explore the Online Mods System";
+    English[TranslationKeys::MODS_CREATED_BY_DESCRIPTION] = "Mods created by me, the developer of this trainer, are available through an integrated online platform.";
+    English[TranslationKeys::NEW_MODS_DESCRIPTION] = "New mods can be added at any time! Simply click the Update button to check for the latest additions.";
+    English[TranslationKeys::MODS_AVAILABLE_ONLINE] = "Found %d mods available online!";
+    English[TranslationKeys::NO_MODS_AVAILABLE] = "Click Update Mods to check for available mods";
+
+    // Instructions
+    English[TranslationKeys::HOW_TO_USE_TITLE] = "How to use:";
+    English[TranslationKeys::MOD_INSTRUCTION_1] = "Click Online Mods to open the mods browser";
+    English[TranslationKeys::MOD_INSTRUCTION_2] = "Click Update Mods to check for new additions";
+    English[TranslationKeys::MOD_INSTRUCTION_3] = "Click Get Info on any mod to see details and preview";
+    English[TranslationKeys::MOD_INSTRUCTION_4] = "Click Download to get the mod you want";
+
+    // Warnings
+    English[TranslationKeys::WARNING_NOTE_TITLE] = "Note:";
+    English[TranslationKeys::HD_PROJECT_WARNING] = "HD Project might be required for some mods. Check mod details for requirements.";
+
+    //=============================================================================
+    // 17. MP3 PLAYER
+    //=============================================================================
+    English[TranslationKeys::ENABLE_LYRICS] = "Enable Lyrics";
+
+    // Tabs
+    English[TranslationKeys::MUSIC_TAB_STREAMING] = "Streaming";
+    English[TranslationKeys::MUSIC_TAB_LOCAL_FILES] = "Local Files";
+    English[TranslationKeys::MUSIC_TAB_NOTES] = "Notes";
+
+    // Quick Guide
+    English[TranslationKeys::QUICK_START_GUIDE] = "Quick Start Guide";
+    English[TranslationKeys::PLAYING_LOCAL] = "Playing local";
+    English[TranslationKeys::IMPORTANT_NOTES] = "Important Notes";
+    English[TranslationKeys::STREAMING_FILE_INSTRUCTIONS] = "Create a .txt file in the kreed/streaming folder with the following formats:";
+    English[TranslationKeys::LOCAL_FILES_OFFLINE_INSTRUCTION] = "Place your music files in the local folder to play them offline";
+    English[TranslationKeys::ESSENTIAL_MUSIC_EXPERIENCE_INFO] = "Essential information for the best music experience";
+
+    // Lyrics and Playlists
+    English[TranslationKeys::SONGS_WITH_LYRICS] = "Songs with Lyrics";
+    English[TranslationKeys::TXT_FILE_FORMAT_DESCRIPTION] = ".txt file using the following format:";
+    English[TranslationKeys::LYRICS_TIMESTAMP_NOTE] = "Timestamps are in seconds. Lyrics are optional.";
+    English[TranslationKeys::CREATING_PLAYLISTS] = "Creating Playlists";
+    English[TranslationKeys::PLAYLIST_FILE_FORMAT_DESCRIPTION] = "playlist.txt file using the following format:";
+    English[TranslationKeys::PLAYLIST_EXAMPLE_TITLE] = "Never Gonna Give You Up";
+    English[TranslationKeys::PLAYLIST_EXAMPLE_URL] = "kreedy.net/rick";
+
+    // Recommended Formats
+    English[TranslationKeys::RECOMMENDED_FORMATS] = "Recommended Formats";
+    English[TranslationKeys::ALL_SUPPORTED_FORMATS] = "All Supported Formats";
+    English[TranslationKeys::MP3_FORMAT_DESCRIPTION] = ".mp3\n- Best compression\n- Wide compatibility\n- Smaller file size";
+    English[TranslationKeys::MP3_QUALITY_NOTE] = "MP3 maintain quality while using less disk space";
+    English[TranslationKeys::HIGH_QUALITY_FORMATS] = "High Quality:";
+    English[TranslationKeys::STANDARD_FORMATS] = "Standard:";
+    English[TranslationKeys::OTHER_FORMATS] = "Other:";
+
+    // Performance
+    English[TranslationKeys::PERFORMANCE_TIPS_TITLE] = "Tips for best performance:";
+    English[TranslationKeys::NAMING_CONVENTION_TIP] = "Use consistent naming conventions";
+    English[TranslationKeys::LOCAL_FILES_LOADING_TIP] = "Local files load instantly with no buffering";
+    English[TranslationKeys::STREAMING_INFORMATION] = "Streaming Information";
+    English[TranslationKeys::RECOMMENDED_HOST] = "Recommended Host:\ncatbox.moe";
+    English[TranslationKeys::FREE_HOSTING_TIP] = "Free hosting service";
+    English[TranslationKeys::ZERO_LATENCY_TIP] = "Zero stream latency";
+    English[TranslationKeys::NO_REGISTRATION_TIP] = "No registration needed";
+
+    // System Requirements
+    English[TranslationKeys::SYSTEM_REQUIREMENTS] = "System Requirements";
+    English[TranslationKeys::ACTIVE_INTERNET_TIP] = "Active internet for streaming";
+    English[TranslationKeys::NO_SPECIAL_DRIVERS_TIP] = "No special audio drivers needed";
+    English[TranslationKeys::PERFORMANCE_TIPS] = "Performance Tips";
+    English[TranslationKeys::DIRECT_LINKS_LOADING_TIP] = "Use direct links for faster loading";
+    English[TranslationKeys::STABLE_CONNECTION_TIP] = "Keep your internet connection stable";
+
+    // Memory Management
+    English[TranslationKeys::MEMORY_MANAGEMENT] = "Memory Management";
+    English[TranslationKeys::MEMORY_USAGE_DESCRIPTION] = "Music is streamed directly and not stored in memory, ensuring efficient resource usage.";
+
+    // Templates
+    English[TranslationKeys::SONG_FILE_TEMPLATE] =
+        "TITLE=\n"
+        "FILENAME=\n"
+        "URL=\n"
+        "START=0.0\n"
+        "\n"
+        "1.0|First lyric line\n"
+        "3.0|Second lyric line";
+
+    English[TranslationKeys::PLAYLIST_FILE_TEMPLATE] =
+        "Name|URL\n"
+        "\n"
+        "Example:\n"
+        "Never Gonna Give You Up|kreedy.net/rick";
+
+    // Music Player Controls
+    English[TranslationKeys::TEXT_MUSIC_PLAYER_CONTROLS] = "Music Player Controls";
+    English[TranslationKeys::TEXT_SKIP_SONG] = "Skip Song";
+
+    //=============================================================================
+    // 18. SAVE/LOAD AND CONFIGURATION
+    //=============================================================================
+    English[TranslationKeys::SAVE_LOAD] = "Save/Load";
+
+    // Save Controls
+    English[TranslationKeys::TEXT_SAVE_CONTROLS] = "Save Controls";
+    English[TranslationKeys::TEXT_AUTO_SAVE_CONFIRM] = "Auto-Save Confirm";
+
+    //=============================================================================
+    // 19. ABOUT AND CREDITS
+    //=============================================================================
+    English[TranslationKeys::ABOUT_TRAINER] = "About";
+    English[TranslationKeys::CONTACT_INFO] = "Contact Information";
+    English[TranslationKeys::VERSION_INFO] = "Trainer Information";
+
+    // Trainer Info
+    English[TranslationKeys::TRAINER_INFO] = "Internal Trainer Premium Version";
+    English[TranslationKeys::CREATOR_INFO] = "Developed By kreed";
+
+    // External Links
+    English[TranslationKeys::DISCORD_SERVER] = "Discord Server";
+    English[TranslationKeys::VISIT_WEBSITE] = "Visit Website";
+
+    // Updates
+    English[TranslationKeys::TITLE_UPDATES_VERSION_CONTROL] = "Updates & Version Control";
+    English[TranslationKeys::TITLE_UPDATE_OPTIONS] = "Update Options";
+    English[TranslationKeys::TITLE_NEW_VERSION_AVAILABLE] = "New Version Available!";
+    English[TranslationKeys::TEXT_CURRENT_VERSION] = "Current Version: %s";
+    English[TranslationKeys::TEXT_NEW_VERSION_AVAILABLE] = "New Version Available: %s";
+    English[TranslationKeys::TEXT_VERSION_UP_TO_DATE] = "Your version is up to date";
+    English[TranslationKeys::TEXT_DOWNLOADING] = "Downloading... %.1f%%";
+    English[TranslationKeys::TEXT_DOWNLOAD_COMPLETE] = "Download Complete!";
+    English[TranslationKeys::TEXT_FILE_SAVED_TO] = "File saved to: kreed/update.zip";
+    English[TranslationKeys::TEXT_REPLACE_TRAINER] = "Please replace the current trainer with the new one.";
+    English[TranslationKeys::TEXT_PRESS_KEY_TO_DOWNLOAD] = "You can also press %s to download";
+    English[TranslationKeys::BUTTON_DOWNLOAD_UPDATE] = "Download Update";
+    English[TranslationKeys::BUTTON_CHECK_UPDATES] = "Check for Updates";
+    English[TranslationKeys::CHECKBOX_CHECK_UPDATES_STARTUP] = "Check for updates on startup";
+    English[TranslationKeys::NOTIFICATION_CURRENT_VERSION] = "Current version: %s";
+    English[TranslationKeys::NOTIFICATION_NEW_VERSION] = "New version: %s";
+    English[TranslationKeys::NOTIFICATION_DOWNLOADING] = "Downloading...";
+    English[TranslationKeys::NOTIFICATION_DOWNLOAD_COMPLETE] = "Download Complete!";
+    English[TranslationKeys::NOTIFICATION_UPDATE_SAVED] = "Update successfully saved to kreed folder";
+
+    // Update Controls
+    English[TranslationKeys::TEXT_UPDATE_CONTROLS] = "Update Controls";
+    English[TranslationKeys::BUTTON_PRESS_KEY] = "Press ";
+    English[TranslationKeys::TO_DOWNLOAD] = " to download";
+
+    //=============================================================================
+    // 20. ADVANCED FEATURES
+    //=============================================================================
+    // Kill Aura
+    English[TranslationKeys::KILL_AURA] = "Kill Aura";
+    English[TranslationKeys::KILL_AURA_HELPMARK] = "Kills all enemies around the character.";
+
+    // Kill Ashley
+    English[TranslationKeys::ALLOW_KILL_ASHLEY] = "Allow to Kill Ashley";
+    English[TranslationKeys::ALLOW_KILL_ASHLEY_HELPMARK] = "Removes mission failed when Ashley dies.";
+
+    // Auto Skip Cutscenes
+    English[TranslationKeys::AUTO_SKIP_CUTSCENES] = "Auto Skip Cutscenes";
+    English[TranslationKeys::AUTO_SKIP_CUTSCENES_HELPMARK] = "Automatically skips in-game cutscenes.";
+
+    // Auto Restart on Death
+    English[TranslationKeys::MONITOR_HEALTH] = "Death Auto Restart";
+    English[TranslationKeys::MONITOR_HEALTH_HELPMARK] = "Detects when you died and automatically calls the checkpoint\nYou won't even see the death screen.";
+
+    // Arrow Drops
+    English[TranslationKeys::DROP_SIDELOAD] = "Arrows Drops";
+    English[TranslationKeys::DROP_SIDELOAD_HELPMARK] = "Activates arrow drops, useful for playing with Krauser\nThis activates the arrows.nia inside the sideload folder.\n\nIt is set to arrows, grenades, herbs and money. (Note: It will NOT drop weapon ammo unless you set it to drop, I removed it by default).";
+
+    // Camera Modifications
+    English[TranslationKeys::NO_MELEE_CAM] = "No Melee Cam";
+    English[TranslationKeys::NO_MELEE_CAM_HELPMARK] = "Modifies the camera behavior when you apply melee.";
+    English[TranslationKeys::NO_KNIFE_AIM_CAM] = "No Aim/Knife Cam";
+    English[TranslationKeys::NO_KNIFE_AIM_CAM_HELPMARK] = "Modifies the camera behavior when aiming with weapon or knife.\nIt work well with No Melee Cam.";
+
+    // Performance Effects
+    English[TranslationKeys::CORPSE_DEATH_EFFECT] = "Corpse Death Effect";
+    English[TranslationKeys::CORPSE_DEATH_EFFECT_HELPMARK] = "Removes particle effect when a body is disappearing from the ground.\nCan help with performance.";
+    English[TranslationKeys::CHAINSAW_SMOKE_EFFECTS] = "Chainsaw Smoke Effects";
+    English[TranslationKeys::CHAINSAW_SMOKE_EFFECTS_HELPMARK] = "Removes smoke from chainsaws.\nCan help performance if have many chainsaws on screen.";
+    English[TranslationKeys::DYNAMITE_EFFECTS] = "Dynamite Effects";
+    English[TranslationKeys::DYNAMITE_EFFECTS_HELPMARK] = "Removes the effects of dynamite leaving only small particles.\nCan help with performance but it can also affect part of the fire effect.";
+
+    // Krauser Aura
+    English[TranslationKeys::BLUE_KRAUSER_AURA] = "Blue Krauser Aura";
+    English[TranslationKeys::GREEN_KRAUSER_AURA] = "Green Krauser Aura";
+    English[TranslationKeys::WHITE_KRAUSER_AURA] = "White Krauser Aura";
+    English[TranslationKeys::YELLOW_KRAUSER_AURA] = "Yellow Krauser Aura";
+    English[TranslationKeys::RAINBOW_KRAUSER_AURA] = "Rainbow Krauser Aura";
+    English[TranslationKeys::RAINBOW_KRAUSER_HELPMARK] = "Cycles between RGB colors in real time";
+    English[TranslationKeys::CUSTOM_KRAUSER_AURA] = "Custom Krauser Aura";
+    English[TranslationKeys::CUSTOM_KRAUSER_HELPMARK] = "Choose a custom color for the aura";
+    English[TranslationKeys::GENERAL_KRAUSER_HELPMARK] = "Color changes in real time";
+    English[TranslationKeys::KRAUSER_AURA_LOCKED_MESSAGE] = "Krauser Aura feature is locked!";
+    English[TranslationKeys::KRAUSER_AURA_UNLOCK_INSTRUCTION] = "Swap to Krauser at least once to unlock";
+    English[TranslationKeys::KRAUSER_AURA_WAIT_MESSAGE] = "Waiting, please be patient...";
+    English[TranslationKeys::KRAUSER_AURA_SELECT_KRAUSER] = "Select Krauser character to enable this feature";
+    English[TranslationKeys::KRAUSER_AURA_SCANNING_MESSAGE] = "Preparing memory for Krauser Aura...";
+    English[TranslationKeys::KRAUSER_AURA_SCANNING_INSTRUCTION] = "This process may take a few seconds";
+    English[TranslationKeys::KRAUSER_AURA_WAIT_FOR_GAME] = "Waiting for in-game status";
+
+    // Krauser Controls
+    English[TranslationKeys::KRAUSER_CONTROLS_ASHLEY] = "Krauser Controls Ashley";
+    English[TranslationKeys::KRAUSER_CONTROLS_ASHLEY_HELPMARK] = "Allows Krauser to control Ashley.\n\nTo call Ashley stand completely still and press the call button (usually Z)\nTo use the arm press the button while walking.";
+
+    // Krauser Beret
+    English[TranslationKeys::KRAUSER_BERET_HELPMARK] = "Changes the original Krauser model (no-shirt) to beret version.\nThis feature calls and synchronizes with the modloader online system.";
+
+    // NiaSplit
+    English[TranslationKeys::NIA_SPLIT_MAIN] = "NiaSplit";
+    English[TranslationKeys::NIA_SPLIT_HELPMARK] = "NiaSplit is a complete speedrun implementation that contains a modern timer and auto-splits built-in.\n\nThe auto-split default route is set to Any% Pro, you can toggle the splits if you want to show only the timer.\nThe load remover is enabled by default, it pauses the timer between loadings and on esc pause.";
+
+    // Speedrun Utilities
+    English[TranslationKeys::SPEEDRUN_UTILS] = "Speedrun Utils";
+
+    // Fast Switch Warnings
+    English[TranslationKeys::WARNING_FAST_SWITCH] = "Warning: Fast Switch is active!";
+    English[TranslationKeys::FAST_SWITCH_BLOCKED] = "Cannot be enabled while Fast Switch is active.";
+    English[TranslationKeys::CRITICAL_WARNING_FAST_SWITCH] = "Cannot be enabled while Fast Switch is active.";
+
+    //=============================================================================
+    // 21. NOTIFICATION SYSTEM
+    //=============================================================================
+    English[TranslationKeys::FEATURE_NOTIFICATIONS] = "Notification System";
+    English[TranslationKeys::FEATURE_NOTIFICATIONS_DESC] = "Shows all notifications on screen.\nDisabling is not recommended.";
+
+    //=============================================================================
+    // 22. PERFORMANCE FEATURES
+    //=============================================================================
+    English[TranslationKeys::PERFORMANCE_TRACKER] = "Performance Tracker";
+    English[TranslationKeys::ADVANCED_OPTIMIZATION] = "Advanced Optimization";
+    English[TranslationKeys::OPTIMIZATION_FEATURES] = "Optimization Features";
+
+    //=============================================================================
+    // 23. GAMEPLAY FEATURES
+    //=============================================================================
+    English[TranslationKeys::GAMEPLAY] = "Gameplay";
+    English[TranslationKeys::REMOVE_MELEE] = "Remove Melee";
+    English[TranslationKeys::REMOVE_MELEE_HELPMARK] = "Removes the melee prompt from enemies, disabling it completely.";
+
+    // Ashley Jumps Alone
+    English[TranslationKeys::ASHLEY_JUMPS_ALONE] = "Ashley Jumps Alone";
+    English[TranslationKeys::ASHLEY_JUMPS_ALONE_HELPMARK] = "Makes Ashley able to jump from high places alone.\nIt is necessary to install the special file that is in the modloader online system.";
+    English[TranslationKeys::ASHLEY_JUMPS_ALONE_REQUIRES_MOD] = "This feature requires the Ashley Jumps Alone files.\nPlease install it from Modloader Online System. HD Project Only!";
+
+    // Heavy Ganados
+    English[TranslationKeys::MELEE_HEAVY_GANADOS] = "Melee Heavy Ganados";
+    English[TranslationKeys::MELEE_HEAVY_GANADOS_HELPMARK] = "Allows you to kick heavy ganados like Megas and JJ";
+
+    // Freeze Effects
+    English[TranslationKeys::FX_FREEZE_ENEMIES] = "Effects Freeze Enemies";
+    English[TranslationKeys::FX_FREEZE_ENEMIES_HELPMARK] = "Freezes enemies without them reacting, also changes the game color to a bluish tone and plays a 'slow' sound when activating/deactivating.\n\nConfigure a hotkey to activate, Default Key: K";
+
+    //=============================================================================
+    // 24. MELEE SELECTION
+    //=============================================================================
+    English[TranslationKeys::HIGH_MELEE_SELECTION] = "High Melee Selection";
+    English[TranslationKeys::LOW_MELEE_SELECTION] = "Low Melee Selection";
+    English[TranslationKeys::SELECT_ALL] = "Select All";
+    English[TranslationKeys::SELECT_MINIMUM] = "Minimum (2)";
+
+    //=============================================================================
+    // 25. INVENTORY MANAGEMENT
+    //=============================================================================
+    English[TranslationKeys::INVENTORY] = "Inventory";
+    English[TranslationKeys::INVENTORY_MANAGEMENT] = "Inventory Management";
+    English[TranslationKeys::INVENTORY_SETTINGS] = "Inventory Settings";
+    English[TranslationKeys::ITEM_COLLECTION] = "Item Collection";
+    English[TranslationKeys::RESOURCE_MANAGEMENT] = "Resource Management";
+    English[TranslationKeys::PLAGA_RESOURCES] = "Plaga Resources";
+    English[TranslationKeys::MONEY_MANAGEMENT] = "Money Management";
+    English[TranslationKeys::ENEMY_INTERACTION] = "Enemy Interaction";
+    English[TranslationKeys::CUTSCENE_AND_QTE] = "Cutscenes & QTE";
+
+    //=============================================================================
+    // 26. SPECIAL FEATURES
+    //=============================================================================
+    English[TranslationKeys::SPECIAL_ABILITIES] = "Special Abilities";
+    English[TranslationKeys::CHARACTER_ABILITIES] = "Character Abilities";
+    English[TranslationKeys::ADVANCED_WEAPON_FEATURES] = "Advanced Weapon Features";
+
+    //=============================================================================
+    // 27. CUSTOM POSITIONS
+    //=============================================================================
+    English[TranslationKeys::CUSTOM_POSITIONS] = "Custom Positions";
+
+    //=============================================================================
+    // 28. RELOAD ESL
+    //=============================================================================
+    English[TranslationKeys::ESL_ON_RETRY] = "Reload ESL";
+    English[TranslationKeys::ESL_ON_RETRY_HELPMARK] = "Reload enemies from esl when restart checkpoint, useful for modders.";
+
+    //=============================================================================
+    // 29. CHARACTER FEATURES
+    //=============================================================================
+    English[TranslationKeys::MATILDA_QUICKTURN] = "Matilda Quickturn";
+    English[TranslationKeys::MATILDA_QUICKTURN_HELPMARK] = "Restores Matilda quickturn that was disabled in the original game.";
+
+    //=============================================================================
+    // 30. SPECIAL CLEANER
+    //=============================================================================
+    English[TranslationKeys::SPECIAL_CLEANER] = "Special Cleaner";
+
+    //=============================================================================
+    // 31. REMOVE DROPS
+    //=============================================================================
+    English[TranslationKeys::REMOVE_DROPS] = "Remove Drops";
+    English[TranslationKeys::REMOVE_DROPS_HELPMARK] = "Removes all drops from enemies.";
+
+    //=============================================================================
+    // 32. REMOVE KNIFE
+    //=============================================================================
+    English[TranslationKeys::REMOVE_KNIFE] = "Remove Knife";
+    English[TranslationKeys::REMOVE_KNIFE_HELPMARK] = "Remove the knife from the game.";
+
+    //=============================================================================
+    // 33. NO ENEMIES DISAPPEAR
+    //=============================================================================
+    English[TranslationKeys::NO_ENEMIES_DISAPPEAR] = "No Enemies Disappear";
+    English[TranslationKeys::NO_ENEMIES_DISAPPEAR_HELPMARK] = "Enemies will NOT disappear when the village bell rings (R101) and in the castle after cannon (R202).\nUseful for modders.";
+
+    //=============================================================================
+    // 34. CHARACTER SIZE CONTROL
+    //=============================================================================
+    English[TranslationKeys::CHARACTER_SIZE_CONTROL] = "Character Size Control";
+
+    //=============================================================================
+    // 35. WINDOWS AND OVERLAYS
+    //=============================================================================
+    English[TranslationKeys::WINDOW_OVERLAYS] = "Window Overlays";
+    English[TranslationKeys::OVERLAYS] = "Overlays";
+
+    //=============================================================================
+    // 36. SPECIFIC WINDOWS
+    //=============================================================================
+    English[TranslationKeys::WINDOW_FOV_SETTINGS] = "FOV Settings";
+    English[TranslationKeys::WINDOW_CROSSHAIR_COLORS] = "Crosshair Colors";
+    English[TranslationKeys::WINDOW_UPDATES_VERSION] = "Updates & Version";
+    English[TranslationKeys::WINDOW_CHARACTER_CONTROLS] = "Character Controls";
+    English[TranslationKeys::WINDOW_AREA_JUMP] = "Area Jump";
+    English[TranslationKeys::WINDOW_GET_ITEM] = "Get Item";
+    English[TranslationKeys::WINDOW_MEMORY_EDITOR] = "Memory Editor";
+    English[TranslationKeys::WINDOW_PERFORMANCE_TRACKER] = "Tracker";
+
+    //=============================================================================
+    // 37. PLAYER VISIBILITY
+    //=============================================================================
+    English[TranslationKeys::TEXT_PLAYER_VISIBILITY] = "Player Visibility";
+
+    //=============================================================================
+    // 38. SYSTEM HOOKS
+    //=============================================================================
+    English[TranslationKeys::KEYBOARD_HOOK_FAILED] = "Failed to install keyboard hook: ";
+    English[TranslationKeys::MOUSE_HOOK_FAILED] = "Failed to install mouse hook: ";
