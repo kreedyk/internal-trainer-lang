@@ -13,14 +13,17 @@
 * nia.kreedy.net
 */
 
-
+/*
+File updated on Jul 21 covering 96% of all trainer strings
+Translate below V V V V V
+*/
     //=============================================================================
     // 1. LANGUAGE NAMES AND BASIC UI ELEMENTS
     //=============================================================================
     English[TranslationKeys::LANG_NAME_ENGLISH] = "English";
     English[TranslationKeys::LANG_NAME_PORTUGUESE] = "Portuguese";
     English[TranslationKeys::LANG_NAME_CHINESE] = "中文";
-    English[TranslationKeys::CHINESE_LANGUAGE_NAME] = "ChineseLanguage";
+    English[TranslationKeys::CHINESE_LANGUAGE_NAME] = "Chinese";
 
     // Main menu tabs
     English[TranslationKeys::PLAYER] = "Player";
