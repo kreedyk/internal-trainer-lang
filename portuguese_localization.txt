@@ -1,0 +1,1090 @@
+/*
+* Welcome to the Internal Trainer localization file!
+*
+* In an attempt to reach a wider audience (and be somewhat professional), my trainer supports multiple languages.
+* This is a universal file containing all the strings in the trainer.
+*
+* Thanks to all the translators for being a part of this!
+* -
+* -
+*
+* Mar 8 2025
+* -kreed
+* nia.kreedy.net
+*/
+
+/*
+File updated on Jul 21 covering 96% of all trainer strings
+Translate below V V V V V
+*/
+
+    //=============================================================================
+    // 1. LANGUAGE NAMES AND BASIC UI ELEMENTS
+    //=============================================================================
+    Portuguese[TranslationKeys::LANG_NAME_ENGLISH] = "Inglês";
+    Portuguese[TranslationKeys::LANG_NAME_PORTUGUESE] = "Português";
+    Portuguese[TranslationKeys::LANG_NAME_CHINESE] = "中文";
+    Portuguese[TranslationKeys::CHINESE_LANGUAGE_NAME] = "Chinês";
+
+    // Main menu tabs
+    Portuguese[TranslationKeys::PLAYER] = "Jogador";
+    Portuguese[TranslationKeys::SWAPPING] = "Trocas";
+    Portuguese[TranslationKeys::VISUALS] = "Visuais";
+    Portuguese[TranslationKeys::SETTINGS] = "Configurações";
+    Portuguese[TranslationKeys::SPECIALS] = "Especiais";
+    Portuguese[TranslationKeys::CONFIGS] = "Configs";
+    Portuguese[TranslationKeys::SCRIPTS] = "Scripts";
+    Portuguese[TranslationKeys::EXTRAS] = "Extras";
+    Portuguese[TranslationKeys::MISC] = "Diversos";
+
+    // Common UI elements and dialogs
+    Portuguese[TranslationKeys::YES] = "Sim";
+    Portuguese[TranslationKeys::CANCEL] = "Cancelar";
+    Portuguese[TranslationKeys::OK] = "OK";
+    Portuguese[TranslationKeys::ERROR] = "Erro";
+    Portuguese[TranslationKeys::JUMP] = "Pular";
+    Portuguese[TranslationKeys::IMPORTANT] = "Importante:";
+    Portuguese[TranslationKeys::BELOW_SLIDER] = "(Ctrl + Clique para inserir valor)";
+
+    //=============================================================================
+    // 2. PLAYER FEATURES
+    //=============================================================================
+    Portuguese[TranslationKeys::PLAYER_CHEATS] = "Cheats do Jogador";
+    Portuguese[TranslationKeys::PLAYER_INVINCIBLE] = "Jogador Invencível";
+    Portuguese[TranslationKeys::LOCK_HEALTH] = "Travar Vida";
+    Portuguese[TranslationKeys::INFINITE_AMMO] = "Munição Infinita";
+    Portuguese[TranslationKeys::INFINITE_AMMO_HELPMARK] = "Balas ilimitadas.";
+    Portuguese[TranslationKeys::ONE_HIT_KILL] = "Matar com um tiro";
+    Portuguese[TranslationKeys::PLAYER_WONT_GET_HIT] = "Jogador não recebe dano.";
+    Portuguese[TranslationKeys::HEALTH_DOESNT_DECREASE] = "Vida não diminui.";
+    Portuguese[TranslationKeys::KILL_ENEMIES_ONE_HIT] = "Deixa inimigos fracos que morrem com somente um tiro.";
+
+    // Movement and Speed
+    Portuguese[TranslationKeys::WALKING_SPEED] = "Velocidade de Caminhada";
+    Portuguese[TranslationKeys::GENERAL_SPEED] = "Velocidade Geral";
+    Portuguese[TranslationKeys::FIRING_SPEED] = "Velocidade de Tiro";
+    Portuguese[TranslationKeys::WALKING_SPEED_HELPMARK] = "Aumenta a velocidade de caminhada, geralmente melhor que a velocidade geral.";
+    Portuguese[TranslationKeys::GENERAL_SPEED_HELPMARK] = "Aumenta velocidade da faca, pulos e escaladas.\nPode causar dessincronização ao recarregar armas.";
+    Portuguese[TranslationKeys::INCREASES_FIRING_SPEED] = "Aumenta velocidade de tiro ao máximo.\nRecomendado ativar munição infinita.";
+    Portuguese[TranslationKeys::MODERN_MOVEMENTS] = "Movimentos Modernos";
+    Portuguese[TranslationKeys::MODERN_MOVEMENTS_HELPMARK] = "Moderniza a mecânica do jogo.\nMelhora giro com mouse, caminhada lateral e movimento ao mirar.";
+    Portuguese[TranslationKeys::SPEED_MULTIPLIER] = " Multiplicador de Velocidade";
+
+    // Health, Resources and Items
+    Portuguese[TranslationKeys::INFINITE_ITEM_STACK] = "Pilha Infinita de Itens";
+    Portuguese[TranslationKeys::ITEM_STACK_HELPMARK] = "Itens e munição acumulam até 999.";
+    Portuguese[TranslationKeys::AUTO_PICK_UP] = "Coleta Automática";
+    Portuguese[TranslationKeys::AUTO_PICK_UP_HELPMARK] = "Coleta itens automaticamente ao se aproximar.";
+    Portuguese[TranslationKeys::DROP_NEVER_DISAPPEAR] = "Itens Não Desaparecem";
+    Portuguese[TranslationKeys::DROP_NEVER_DISAPPEAR_HELPMARK] = "Itens dropados permanecem no chão permanentemente\n(Exceto ao mudar de área).";
+    Portuguese[TranslationKeys::RESTORE_HEALTH] = "Restaurar Vida";
+    Portuguese[TranslationKeys::MAXIMIZE_HEALTH] = "Maximizar Vida";
+    Portuguese[TranslationKeys::MAXIMIZE_INVENTORY] = "Maximizar Inventário";
+
+    // Collisions and Environment
+    Portuguese[TranslationKeys::DISABLE_COLLISION] = "Desativar Colisão";
+    Portuguese[TranslationKeys::DISABLE_COLLISION_HELPMARK] = "Permite atravessar paredes.\nUse as setas para mover para cima/baixo.";
+    Portuguese[TranslationKeys::EXPLORE_CUTSCENES] = "Explorar Cutscenes";
+    Portuguese[TranslationKeys::EXPLORE_CUTSCENES_HELPMARK] = "Permite andar durante cutscenes.";
+
+    // Player Size Control
+    Portuguese[TranslationKeys::LEON_SIZE_CONTROL] = "Controle de Tamanho do Leon";
+    Portuguese[TranslationKeys::LEON_SIZE_CONTROL_HELPMARK] = "Quando ativado, o tamanho do personagem será mantido constantemente.";
+    Portuguese[TranslationKeys::LEON_PROPORTIONAL_SCALING] = "Escala Proporcional";
+    Portuguese[TranslationKeys::LEON_PROPORTIONAL_SCALING_HELPMARK] = "Quando ativado, todas as dimensões serão redimensionadas igualmente.";
+    Portuguese[TranslationKeys::RESET_SIZE] = "Redefinir Tamanho";
+    Portuguese[TranslationKeys::X_SIZE] = "Tamanho X";
+    Portuguese[TranslationKeys::Y_SIZE] = "Tamanho Y";
+    Portuguese[TranslationKeys::Z_SIZE] = "Tamanho Z";
+    Portuguese[TranslationKeys::CURRENT_SIZE] = "Tamanho Atual";
+
+    //=============================================================================
+    // 3. COMBAT AND ENEMIES
+    //=============================================================================
+    Portuguese[TranslationKeys::COMBAT_CHEATS] = "Cheats de Combate";
+    Portuguese[TranslationKeys::SURVIVAL_CHEATS] = "Cheats de Sobrevivência";
+
+    // Enemy Controls
+    Portuguese[TranslationKeys::FREEZE_ENEMIES] = "Congelar Inimigos";
+    Portuguese[TranslationKeys::FREEZE_ENEMIES_HELPMARK] = "Congela completamente todos os inimigos.\n\nQuando ativado, use a tecla configurada para alternar o estado de congelamento. Tecla padrão: J";
+    Portuguese[TranslationKeys::FREEZE_EVERYTHING] = "Congelar Tudo";
+    Portuguese[TranslationKeys::FREEZES_GAME_EXCEPT_YOU] = "Congela completamente o jogo, exceto você.\n\nQuando ativado, use a tecla configurada para alternar o estado de congelamento. Tecla padrão: L";
+    Portuguese[TranslationKeys::SHOW_ENEMY_HP] = "HP do Inimigo";
+    Portuguese[TranslationKeys::SHOWS_ENEMY_HP_TOOLTIP] = "Exibe a vida do inimigo com barra opcional personalizada.";
+
+    // Parry System
+    Portuguese[TranslationKeys::REMAKE_PARRY] = "Remake Parry";
+    Portuguese[TranslationKeys::REMAKE_PARRY_HELPMARK] = "Traz a mecânica do remake para o jogo clássico.";
+    Portuguese[TranslationKeys::AUTO_PARRY] = "Parry Automático";
+    Portuguese[TranslationKeys::PARRY_CONFIGURATION] = "Configuração do Parry";
+    Portuguese[TranslationKeys::PARRY_SETTINGS] = "Configurações do Parry";
+    Portuguese[TranslationKeys::ONE_PARRY_TIME] = "Apenas um Parry pode ser ativado por vez";
+    Portuguese[TranslationKeys::AUTO_PARRY_OFF] = "Parry Automático só funciona com Parry ativo.";
+    Portuguese[TranslationKeys::INFINITE_PARRY] = "Parry Infinito";
+    Portuguese[TranslationKeys::INFINITE_PARRY_HELPMARK] = "Desativa a durabilidade baseada em tempo.";
+    Portuguese[TranslationKeys::PARRY_COOLDOWN_ACTIVE] = "Não pode desativar durante o afiamento.";
+    Portuguese[TranslationKeys::MAXIMUM_BLADE_DURABILITY] = " Durabilidade Máxima da Lâmina";
+    Portuguese[TranslationKeys::SHARPENING_TIME_MINUTES] = " Tempo de Afiamento (minutos)";
+
+    // Weapons and Bullets
+    Portuguese[TranslationKeys::WEAPONS_SECTION] = "Seção de Armas";
+    Portuguese[TranslationKeys::WEAPON_EXCLUSIVES] = "Exclusivos de Armas";
+    Portuguese[TranslationKeys::SPECIAL_BULLETS] = "Balas Especiais";
+    Portuguese[TranslationKeys::SPECIAL_BULLETS_TITLE] = "Ativar Balas Especiais";
+    Portuguese[TranslationKeys::NO_RELOAD_WASTE] = "Sem Perda ao Recarregar";
+    Portuguese[TranslationKeys::NO_RELOAD_WASTE_HELPMARK] = "Não reduz munição ao recarregar.";
+    Portuguese[TranslationKeys::BULLET_PENETRATION] = "Penetração de Balas";
+    Portuguese[TranslationKeys::BULLET_PENETRATION_HELPMARK] = "Todas as armas penetram inimigos, como a Punisher.";
+    Portuguese[TranslationKeys::ONLY_ONE_SPECIAL_BULLET] = "Apenas uma bala especial pode ser ativada por vez.";
+    Portuguese[TranslationKeys::ONLY_ONE_EFFECT] = "Apenas um efeito de Flash pode ser ativado por vez.";
+
+    // Special Ammunition Types
+    Portuguese[TranslationKeys::EXPLOSIVE_BULLETS] = "Balas Explosivas";
+    Portuguese[TranslationKeys::FLAME_BULLETS] = "Balas de Fogo";
+    Portuguese[TranslationKeys::EXPLOSIVE_BULLETS_HELPMARK] = "Dispara balas explosivas especiais.\nAutomaticamente desativa balas de fogo se ativadas.";
+    Portuguese[TranslationKeys::FLAME_BULLETS_HELPMARK] = "Dispara balas flamejantes especiais.\nAutomaticamente desativa balas explosivas se ativadas.";
+    Portuguese[TranslationKeys::SUPLEX_BULLETS] = "Balas de Suplex";
+    Portuguese[TranslationKeys::NECK_BREAK_BULLETS] = "Balas de Quebra-Pescoço";
+    Portuguese[TranslationKeys::GRAB_BULLETS] = "Balas de Agarrão";
+    Portuguese[TranslationKeys::GENERIC_BULLETS_HELPMARK] = "Efeito visual legal apesar de não ter a animação do personagem.";
+    Portuguese[TranslationKeys::NECKBROKE_BULLETS_HELPMARK] = "Executa o quebra-pescoço do Hunk ao acertar inimigos.";
+
+    // Flash Effects
+    Portuguese[TranslationKeys::FLASH_FREEZE] = "Congelamento por Flash";
+    Portuguese[TranslationKeys::FLASH_FREEZE_TIME] = " Duração do Congelamento";
+    Portuguese[TranslationKeys::FLASH_FREEZE_HELPMARK] = "Inimigos são congelados quando granada de flash explode.";
+    Portuguese[TranslationKeys::FLASH_PULVERIZE] = "Pulverização por Flash";
+    Portuguese[TranslationKeys::FLASH_PULVERIZE_HELPMARK] = "Inimigos são pulverizados instantaneamente ao explodir granada.";
+
+    // Special Weapons
+    Portuguese[TranslationKeys::SUPER_PUNISHER] = "Super Punisher";
+    Portuguese[TranslationKeys::SUPER_PUNISHER_HELPMARK] = "Aprimora a Punisher com atributos especiais:\n"
+        "Poder: 1.9 até 6.0\n"
+        "Capacidade: 16 até 80\n"
+        "Penetração: 8 tiros (5 sem exclusivo)\n"
+        "Taxa de tiro: Rápida";
+
+    Portuguese[TranslationKeys::KRAUSER_ARM] = "Braço do Krauser";
+    Portuguese[TranslationKeys::KRAUSER_ARM_HELPMARK] = "Obtenha o braço do Krauser uma vez sempre que usar uma erva combinada de G+R+Y.\n\nPara ver o efeito da aura, você precisa ter um pl.udas modificado com o efeito apropriado.\nOs arquivos do meu antigo trainer têm isso para todos os personagens.\n\nQuando Ashley estiver presente: Para usar o braço, pressione o botão de ação duas vezes rapidamente. Já que a ação do braço e a ação de controlar a Ashley usam o mesmo botão.";
+
+    // Weapon Switching
+    Portuguese[TranslationKeys::FAST_SWITCH] = "Troca Rápida";
+    Portuguese[TranslationKeys::FAST_SWITCH_HELPMARK] = "Permite que você troque de armas com a roda do mouse ou com as teclas 1-6.\nLembre-se de ficar completamente parado para trocar de armas.\n\nDica: mantenha as armas próximas umas das outras no inventário.";
+
+    // Knife Settings
+    Portuguese[TranslationKeys::KNIFE_DAMAGE] = "Dano da Faca";
+    Portuguese[TranslationKeys::KNIFE_RANGE] = "Alcance da Faca";
+    Portuguese[TranslationKeys::KNIFE_DAMAGE_VALUE] = "Valor do Dano da Faca";
+    Portuguese[TranslationKeys::KNIFE_RANGE_VALUE] = "Valor do Alcance da Faca";
+    Portuguese[TranslationKeys::KNIFE_DAMAGE_HELPMARK] = "Use o slider para definir o dano atual da faca.";
+
+    //=============================================================================
+    // 4. MELEE COMBAT SYSTEM
+    //=============================================================================
+    Portuguese[TranslationKeys::MELEES] = "Melees";
+    Portuguese[TranslationKeys::ANYTIME_MELEES] = "Melees a qualquer momento";
+    Portuguese[TranslationKeys::MELEE_NOTIFICATIONS] = "Notificações de Melees";
+    Portuguese[TranslationKeys::MELEE_NOTIFICATIONS_HELPMARK] = "Mostra notificações do melee atual.";
+    Portuguese[TranslationKeys::ENABLE_MELEE_FEATURE] = "Ativar Sistema de Melees";
+    Portuguese[TranslationKeys::ENABLE_MELEE_POPUP] = "Ativando reiniciará do último checkpoint.\nDeseja continuar?";
+    Portuguese[TranslationKeys::MELEE_ANYTIME] = "Melee a Qualquer Momento";
+
+    // Melee Types
+    Portuguese[TranslationKeys::HIGH_MELEE] = "Melee Alto";
+    Portuguese[TranslationKeys::LOW_MELEE] = "Melee Baixo";
+    Portuguese[TranslationKeys::CUSTOM_MELEE] = "Melee Personalizado";
+
+    // Melee Randomizer
+    Portuguese[TranslationKeys::MELEE_RANDOMIZER] = "Randomizador de Melees";
+    Portuguese[TranslationKeys::HIGH_MELEE_RANDOMIZER] = "Melee Alto";
+    Portuguese[TranslationKeys::LOW_MELEE_RANDOMIZER] = "Melee Baixo";
+    Portuguese[TranslationKeys::SECONDS] = "Intervalo de %.1f segundos";
+    Portuguese[TranslationKeys::ENABLE_MELEE_RANDOMIZER] = "Ativar Randomizador";
+
+    // Melee Settings
+    Portuguese[TranslationKeys::MELEE_DAMAGE] = "Dano do Melee";
+    Portuguese[TranslationKeys::MELEE_DAMAGE_HELPMARK] = "Ajusta o dano dos Melees.";
+    Portuguese[TranslationKeys::MELEE_RANGE] = "Alcance do Melee";
+    Portuguese[TranslationKeys::MELEE_RANGE_HELPMARK] = "Ajusta a distância que o Melee alcança.";
+    Portuguese[TranslationKeys::WESKER_POWER] = "Poder do Wesker";
+    Portuguese[TranslationKeys::WESKER_POWER_HELPMARK] = "Dá o mesmo efeito de empurrar o inimigo para longe ao realizar o Melee.\n\nO dano também é aumentado!";
+    Portuguese[TranslationKeys::MELEE_DAMAGE_VALUE] = "Valor do Dano do Melee";
+    Portuguese[TranslationKeys::MELEE_RANGE_VALUE] = "Valor do Alcance do Melee";
+    Portuguese[TranslationKeys::WARNING_CANNOT_ENABLE_WITH_MANUAL_MELEE] = "Não pode ser ativado enquanto o Melee Manual estiver ativo.";
+
+    //=============================================================================
+    // 5. ASHLEY RELATED FEATURES
+    //=============================================================================
+    Portuguese[TranslationKeys::ASHLEY] = "Ashley";
+    Portuguese[TranslationKeys::ASHLEY_CHEATS] = "Cheats da Ashley";
+    Portuguese[TranslationKeys::ASHLEY_INVINCIBLE] = "Ashley Invencível";
+    Portuguese[TranslationKeys::WARNING_ASHLEY_CONTROL] = "Não pode ser ativado enquanto Krauser controla a Ashley.";
+
+    // Ashley Controls
+    Portuguese[TranslationKeys::ASHLEY_CONTROLS] = "Controles da Ashley";
+    Portuguese[TranslationKeys::ASHLEY_TELEPORT] = "Teleportar Ashley para o Jogador";
+    Portuguese[TranslationKeys::ASHLEY_TELEPORT_HELPMARK] = "Pressione a tecla de atalho configurada para teletransportar Ashley para sua posição atual. Tecla padrão: C";
+    Portuguese[TranslationKeys::ASHLEY_IGNORE_CHECKS] = "Ignorar Verificações";
+    Portuguese[TranslationKeys::ASHLEY_IGNORE_CHECKS_HELPMARK] = "Permite entrar em áreas sem a Ashley.";
+
+    // Ashley Presence
+    Portuguese[TranslationKeys::ASHLEY_PRESENCE] = "Modo de Presença";
+    Portuguese[TranslationKeys::ASHLEY_PRESENCE_NORMAL] = "Normal (Controlado pelo Jogo)";
+    Portuguese[TranslationKeys::ASHLEY_PRESENCE_NORMAL_HELPMARK] = "Deixa o jogo controlar quando Ashley está presente.";
+    Portuguese[TranslationKeys::ASHLEY_PRESENCE_PRESENT] = "Sempre Presente";
+    Portuguese[TranslationKeys::ASHLEY_PRESENCE_PRESENT_HELPMARK] = "Força Ashley a estar sempre presente.";
+    Portuguese[TranslationKeys::ASHLEY_PRESENCE_NOT_PRESENT] = "Ashley Ausente";
+    Portuguese[TranslationKeys::ASHLEY_PRESENCE_NOT_PRESENT_HELPMARK] = "Remove Ashley completamente.";
+
+    // Ashley Visual Effects
+    Portuguese[TranslationKeys::ASHLEY_VISUAL_EFFECTS] = "Efeitos Visuais";
+    Portuguese[TranslationKeys::ASHLEY_WARNING_HUD] = "Efeito de Alerta no HUD";
+    Portuguese[TranslationKeys::ASHLEY_WARNING_HUD_HELPMARK] = "Mostra efeito de alerta no HUD da Ashley.";
+    Portuguese[TranslationKeys::ASHLEY_TO_LUIS] = "Substituir por Luis";
+    Portuguese[TranslationKeys::ASHLEY_TO_LUIS_HELPMARK] = "Entra em vigor após reiniciar do ultimo checkpoint.\n\nÉ recomendado que você tenha Teleportar Ashley para o Jogador ativado porque Luis pode ficar preso.\nUsar Ashley Sempre Presente e Ignorar Verificações também é uma boa ideia.";
+
+    // Ashley Position Control
+    Portuguese[TranslationKeys::ASHLEY_POS_CONTROL] = "Controle de Posição";
+    Portuguese[TranslationKeys::ASHLEY_LOCK_POS] = "Travar Posição";
+    Portuguese[TranslationKeys::LOCK_POS_HELPMARK] = "Trava posição XYZ (impede movimento).";
+    Portuguese[TranslationKeys::ASHLEY_GET_POS] = "Obter Posição Atual";
+    Portuguese[TranslationKeys::ASHLEY_GET_POS_HELPMARK] = "É recomendado que você tenha Desativar Colisão ativado.\n\nSe você perder Ashley de vista, use o Teleportar Ashley para o Jogador.";
+    Portuguese[TranslationKeys::ASHLEY_X_POS] = "Posição X:";
+    Portuguese[TranslationKeys::ASHLEY_Y_POS] = "Posição Y:";
+    Portuguese[TranslationKeys::ASHLEY_Z_POS] = "Posição Z:";
+    Portuguese[TranslationKeys::ASHLEY_APPLY_POS_ONCE] = "Aplicar Posição (Uma vez)";
+    Portuguese[TranslationKeys::ASHLEY_APPLY_POS] = "Aplicar Posição";
+    Portuguese[TranslationKeys::ASHLEY_CURRENT_POS] = "Posição Atual";
+
+    // Ashley Size Control
+    Portuguese[TranslationKeys::ASHLEY_SIZE_CONTROL] = "Controle de Tamanho";
+    Portuguese[TranslationKeys::ASHLEY_PROP_SCALING] = "Escala Proporcional";
+    Portuguese[TranslationKeys::ASHLEY_PROP_SCALING_HELPMARK] = "Quando ativado, todas as dimensões serão dimensionadas igualmente para manter as proporções.";
+    Portuguese[TranslationKeys::ASHLEY_RESET_SIZE] = "Redefinir Tamanho Padrão";
+    Portuguese[TranslationKeys::ASHLEY_X_SIZE] = "Tamanho X:";
+    Portuguese[TranslationKeys::ASHLEY_Y_SIZE] = "Tamanho Y:";
+    Portuguese[TranslationKeys::ASHLEY_Z_SIZE] = "Tamanho Z:";
+    Portuguese[TranslationKeys::ASHLEY_APPLY_SIZE] = "Aplicar Tamanho";
+
+    // Ashley Animation
+    Portuguese[TranslationKeys::ASHLEY_TEXT_ANIM_SPEED] = "Velocidade de Animação";
+    Portuguese[TranslationKeys::ASHLEY_RESET_SPEED] = "Redefinir Velocidade Padrão";
+    Portuguese[TranslationKeys::ASHLEY_ANIM_SPEED] = "Velocidade";
+    Portuguese[TranslationKeys::ASHLEY_APPLY_ANIM_SPEED] = "Aplicar Velocidade";
+
+    //=============================================================================
+    // 6. CHARACTER AND SWAP FEATURES
+    //=============================================================================
+    Portuguese[TranslationKeys::CHARACTER] = "Personagem";
+    Portuguese[TranslationKeys::CHARACTER_SWAP] = "Troca de Personagem";
+    Portuguese[TranslationKeys::CHARACTER_SWAP_TOGGLE] = "Trocar Personagem";
+    Portuguese[TranslationKeys::MANUAL_CHARACTER_SWAP] = "Troca Manual";
+    Portuguese[TranslationKeys::WARNING_KRAUSER_ARM] = "Não pode ser ativado enquanto o braço do Krauser estiver ativo.";
+
+    // Character Combos
+    Portuguese[TranslationKeys::CHARACTER_COMBO_LABEL] = " Personagem";
+    Portuguese[TranslationKeys::LEON_OUTFIT_COMBO_LABEL] = " Roupa do Leon";
+    Portuguese[TranslationKeys::ASHLEY_OUTFIT_COMBO_LABEL] = " Roupa da Ashley";
+    Portuguese[TranslationKeys::ADA_OUTFIT_COMBO_LABEL] = " Roupa da Ada";
+    Portuguese[TranslationKeys::SWAP_BUTTON] = "Trocar";
+
+    // Outfit Swapping
+    Portuguese[TranslationKeys::LEON_OUTFIT_SWAP_TOGGLE] = "Trocar Roupa do Leon";
+    Portuguese[TranslationKeys::LEON_OUTFIT_SWAP_EXPLANATION] = "Apenas troca a roupa sem ativar recursos extras.";
+    Portuguese[TranslationKeys::SWAP_LEON_OUTFIT_BUTTON] = "Trocar Roupa";
+    Portuguese[TranslationKeys::ASHLEY_OUTFIT_SWAP_TOGGLE] = "Trocar Roupa da Ashley";
+    Portuguese[TranslationKeys::SWAP_ASHLEY_OUTFIT_BUTTON] = "Aplicar Roupa";
+
+    //=============================================================================
+    // 7. RANDOMIZER FEATURES
+    //=============================================================================
+    Portuguese[TranslationKeys::RANDOMIZER] = "Randomizador";
+    Portuguese[TranslationKeys::STAGE_RANDOMIZER] = "Randomizador de áreas";
+    Portuguese[TranslationKeys::CHARACTER_RANDOMIZER] = "Randomizador de Personagens";
+    Portuguese[TranslationKeys::CHARACTER_RANDOMIZER_TITLE] = "Randomizador de Personagens";
+    Portuguese[TranslationKeys::ENEMY_RANDOMIZER] = "Randomizador de Inimigos";
+
+    // Randomizer Settings
+    Portuguese[TranslationKeys::ENABLE_ENEMY_RANDOMIZER] = "Randomizar Inimigos";
+    Portuguese[TranslationKeys::ENABLE_CHARACTER_RANDOMIZER] = "Randomizar Personagens";
+    Portuguese[TranslationKeys::GENERATE_NEW_SEED] = "Gerar Nova Seed";
+    Portuguese[TranslationKeys::TEXT_GENERATING_NEW_SEED] = "Gerando Nova Seed...";
+    Portuguese[TranslationKeys::TEXT_SEED_GENERATED_SUCCESS] = "Seed Gerada com Sucesso!";
+    Portuguese[TranslationKeys::CANT_ACTIVATE_IN_MENU] = "Esta função não pode ser ativada no menu.";
+    Portuguese[TranslationKeys::ONLY_IN_GAME] = "Esta função só pode ser ativada durante o jogo.";
+    Portuguese[TranslationKeys::ONLY_ONE_CAN_ACTIVATE] = "Apenas um pode estar ativo por vez";
+    Portuguese[TranslationKeys::SWAP_DISABLED_RANDOMIZER] = "Esta função fica desativada enquanto o Randomizador de Personagens estiver ativo.";
+
+    // Randomizer Info and Warnings
+    Portuguese[TranslationKeys::AVOID_SOFTLOCKS] = "Para evitar bloqueios ou ficar preso, ao máximo possível, o código primeiro percorre todas as áreas da Vila, considerando as chaves para progressão.\n"
+        "- Verifica a disponibilidade das chaves necessárias para o estágio atual\n"
+        "- Cria um 'Open' em mapas sem saída; procure o comando Open em mapas sem saída, geralmente no final deles\n"
+        "- Confirma que o jogador pode avançar sem ficar preso\n\n"
+        "Depois que todas as áreas forem visitadas, o randomizador avança para o Castelo e, posteriormente, para a Ilha.\n"
+        "Esta ordem de processamento (Vila > Castelo > Ilha) garante que o jogo continue completável, independentemente da distribuição aleatória dos mapas.";
+
+    Portuguese[TranslationKeys::TRY_ALL_STAGES] = "Se você quiser tentar randomizar todas as áreas, pode usar este (não me responsabilizo :P)";
+    Portuguese[TranslationKeys::GET_SOFTLOCK] = "Se você ficar preso, use o Ferramentas de Emergência";
+    Portuguese[TranslationKeys::ENEMY_RANDOMIZER_TOOLTIP] = "Gere uma nova seed a qualquer momento.\nReinicie checkpoint para aplicar.";
+    Portuguese[TranslationKeys::DOOR_RANDOMIZATION_HELP] = "Isso adiciona mais ou menos 1 segundo ao tempo de carregamento.";
+    Portuguese[TranslationKeys::DOOR_WARNING_TITLE] = "Aviso de Randomização";
+    Portuguese[TranslationKeys::DOOR_WARNING_MESSAGE] = "Devido à forma como o jogo lida com as mudanças de personagens, isso adicionará cerca de um segundo ao tempo de carregamento.";
+
+    // Character Randomizer Dialog
+    Portuguese[TranslationKeys::CHARACTER_RANDOMIZER_MESSAGE_WITH_STAGE] =
+        "Ativar reiniciará do último checkpoint.\n\n"
+        "AVISO: Randomizador de Personagens + Áreas\n"
+        "aumenta tempo de carregamento em mais ou menos 2 segundos.\n\n"
+        "Deseja continuar?";
+    Portuguese[TranslationKeys::WARNING_LOADING_TIME_TITLE] = "Aviso de Tempo de Carregamento";
+    Portuguese[TranslationKeys::WARNING_LOADING_TIME_MESSAGE] = "Ter o Randomizador de Personagens e o Randomizador de Áreas ativos aumentará o tempo de carregamento em aproximadamente 2 segundos.\n\nDeseja continuar?";
+
+    //=============================================================================
+    // 8. MERCENARIES MODE
+    //=============================================================================
+    Portuguese[TranslationKeys::MERCENARIES] = "Mercenários";
+    Portuguese[TranslationKeys::MERCENARIES_CHEATS] = "Cheats dos Mercenários";
+
+    // Score and Timers
+    Portuguese[TranslationKeys::SCORE] = "Pontuação Total";
+    Portuguese[TranslationKeys::KILL_ROW] = "Sequência de Mortes";
+    Portuguese[TranslationKeys::KILL_ROW_TIMER] = "Temporizador de Sequência";
+    Portuguese[TranslationKeys::BONUS_TIME_KILL_ROW] = "Tempo Bônus";
+    Portuguese[TranslationKeys::REWARD_TIMER] = "Temporizador de Recompensa";
+    Portuguese[TranslationKeys::TIMER] = "Temporizador Principal";
+    Portuguese[TranslationKeys::PAUSE_TIMER] = "Pausar Temporizador";
+
+    // Mercenaries Mode Tooltips
+    Portuguese[TranslationKeys::SCORE_TOOLTIP] = "Defina ou trave sua pontuação.\nIntervalo: 0-999,999";
+    Portuguese[TranslationKeys::KILL_ROW_TOOLTIP] = "Defina ou trave sequência de mortes.\nIntervalo: 0-999";
+    Portuguese[TranslationKeys::KILL_ROW_TIMER_TOOLTIP] = "Defina temporizador (0.5 = 30 segundos)";
+    Portuguese[TranslationKeys::BONUS_TIME_KILL_ROW_TOOLTIP] = "Defina tempo bônus.\nIntervalo: 0-999,999";
+    Portuguese[TranslationKeys::REWARD_TIMER_TOOLTIP] = "Defina temporizador de recompensa";
+    Portuguese[TranslationKeys::MAIN_TIMER_TOOLTIP] = "Defina temporizador principal (2.0 = 2 minutos)";
+    Portuguese[TranslationKeys::PAUSE_TIMER_TOOLTIP] = "Pausa todos os temporizadores.\nIncluindo Jetski e explosão na área do Krauser";
+
+    // Text and Message Control
+    Portuguese[TranslationKeys::INSTANT_TEXT] = "Texto Instantâneo";
+    Portuguese[TranslationKeys::DISABLE_MESSAGES] = "Desativar Textos";
+    Portuguese[TranslationKeys::INSTANT_TEXT_TOOLTIP] = "Mostra textos iniciais instantaneamente.";
+    Portuguese[TranslationKeys::DISABLE_MESSAGES_TOOLTIP] = "Remove completamente textos iniciais.";
+
+    // Reset Controls
+    Portuguese[TranslationKeys::RESET_ALL_VALUES_BUTTON] = "Redefinir Todos os Valores";
+    Portuguese[TranslationKeys::RESET_VALUES_TOOLTIP] = "Volta todos os valores para padrão";
+
+    //=============================================================================
+    // 9. VISUAL SETTINGS
+    //=============================================================================
+    Portuguese[TranslationKeys::HUD] = "HUD";
+    Portuguese[TranslationKeys::HUD_SETTINGS] = "Configurações do HUD";
+    Portuguese[TranslationKeys::ENVIRONMENT_SETTINGS] = "Configurações de Ambiente";
+    Portuguese[TranslationKeys::REMOVE_HUD] = "Remover HUD";
+
+    // HUD Color Options
+    Portuguese[TranslationKeys::WHITE_HUD] = "HUD Branco";
+    Portuguese[TranslationKeys::BLACK_HUD] = "HUD Preto";
+    Portuguese[TranslationKeys::PURPLE_HUD] = "HUD Roxo";
+    Portuguese[TranslationKeys::BLUE_HUD] = "HUD Azul";
+    Portuguese[TranslationKeys::RED_HUD] = "HUD Vermelho";
+    Portuguese[TranslationKeys::RED_GREEN_ORANGE_HUD] = "HUD Vermelho/Verde/Laranja";
+    Portuguese[TranslationKeys::BLUE_YELLOW_WHITE_HUD] = "HUD Azul/Amarelo/Branco";
+    Portuguese[TranslationKeys::CUSTOM_HUD] = "HUD Personalizado";
+    Portuguese[TranslationKeys::CUSTOM_HUD_HELPMARK] = "Escolha uma cor personalizada para o HUD.";
+    Portuguese[TranslationKeys::RGB_HUD] = "HUD Arco-Íris";
+    Portuguese[TranslationKeys::RGB_HUD_HELPMARK] = "Cores mudam em tempo real.\nAtualiza automaticamente ao mudar de sala.";
+
+    // Environment and Visual Effects
+    Portuguese[TranslationKeys::ENVIRONMENT] = "Ambiente";
+    Portuguese[TranslationKeys::THERMAL_COLOR] = "Cor da Visão Térmica";
+    Portuguese[TranslationKeys::BRIGHTNESS_CONTROL] = "Controle de Brilho";
+    Portuguese[TranslationKeys::VISUAL_EFFECTS] = "Efeitos Visuais";
+    Portuguese[TranslationKeys::TAKES_EFFECT_AFTER_RESTART] = "Entra em vigor após reiniciar do ultimo checkpoint.";
+
+    // Camera Settings
+    Portuguese[TranslationKeys::CAMERA_MOD] = "Modificações de Câmera";
+    Portuguese[TranslationKeys::CAMERA_POSITION] = "Posição da Câmera";
+    Portuguese[TranslationKeys::CAMERA_FREEZE] = "Congelar Câmera";
+    Portuguese[TranslationKeys::CAMERA_ADA] = "Câmera da Ada";
+    Portuguese[TranslationKeys::CAMERA_LEON] = "Câmera do Leon";
+    Portuguese[TranslationKeys::CAMERA_WARNING_ADA] = "Não pode ativar com Câmera do Leon ativa";
+    Portuguese[TranslationKeys::CAMERA_WARNING_LEON] = "Não pode ativar com Câmera da Ada ativa";
+    Portuguese[TranslationKeys::FOV_OVERRIDE] = "Substituir Campo de Visão";
+    Portuguese[TranslationKeys::FOV_CHANGE] = "Campo de Visão";
+    Portuguese[TranslationKeys::CAMERA_PERSPECTIVE_INFO] = "Altere a posição ou perspectiva da câmera.";
+
+    // Lighting
+    Portuguese[TranslationKeys::LIGHTING_OVERRIDES] = "Substituir Iluminação";
+
+    // Camera Perspective
+    Portuguese[TranslationKeys::CAMERA_PERSPECTIVE] = "Perspectiva da Câmera";
+    Portuguese[TranslationKeys::DEFAULT_CAMERA] = "Câmera Padrão do Jogo";
+    Portuguese[TranslationKeys::LEON_SOLO] = "Leon Sozinho";
+    Portuguese[TranslationKeys::LEON_WITH_ASHLEY] = "Leon com Ashley";
+    Portuguese[TranslationKeys::DEFAULT_CAMERA_DESC] = "Comportamento padrão da câmera";
+    Portuguese[TranslationKeys::LEON_SOLO_DESC] = "Câmera otimizada para Leon sozinho";
+    Portuguese[TranslationKeys::LEON_WITH_ASHLEY_DESC] = "Câmera otimizada para Leon com Ashley";
+
+    // Advanced Visual Effects
+    Portuguese[TranslationKeys::CINEMATIC_BARS] = "Barras Cinematográficas";
+    Portuguese[TranslationKeys::CINEMATIC_BARS_HELPMARK] = "Adiciona barras pretas no topo e base da tela.";
+    Portuguese[TranslationKeys::DISABLE_SHADOW] = "Desativar Sombras";
+    Portuguese[TranslationKeys::DISABLE_SHADOW_HELPMARK] = "Faz o jogo parecer a versão de 2007 (sem Shadow Lightning).";
+    Portuguese[TranslationKeys::TYPEWRITER_INFO] = "Informações na Máquina de Escrever";
+    Portuguese[TranslationKeys::TYPEWRITER_INFO_HELPMARK] = "Mostra ID do estágio (Rxxx) e nome da sala.";
+
+    // Crosshair Settings
+    Portuguese[TranslationKeys::LINE_OF_SIGHT] = "Linha da Mira";
+    Portuguese[TranslationKeys::AIM_POINT] = "Ponto de Mira";
+    Portuguese[TranslationKeys::RAINBOW_MODE] = "Modo Arco-Íris";
+    Portuguese[TranslationKeys::RAINBOW_MODE_HELP] = "Faz a mira mudar ciclicamente de cor";
+    Portuguese[TranslationKeys::RAINBOW_SPEED] = "Velocidade";
+    Portuguese[TranslationKeys::RAINBOW_LINE] = "Linha da Mira Arco-Íris";
+    Portuguese[TranslationKeys::RAINBOW_AIM] = "Mira Arco-Íris";
+
+    //=============================================================================
+    // 10. INTERFACE SETTINGS
+    //=============================================================================
+    Portuguese[TranslationKeys::INTERFACE] = "Interface";
+    Portuguese[TranslationKeys::INTERFACE_SETTINGS] = "Configurações de Interface";
+    Portuguese[TranslationKeys::MISC_INTERFACE] = "Interface Diversa";
+
+    // Color Settings
+    Portuguese[TranslationKeys::COLORS_SECTION] = "Cores";
+    Portuguese[TranslationKeys::TAB_COLORS] = "Guias";
+    Portuguese[TranslationKeys::BACKGROUND_COLORS] = "Fundo";
+    Portuguese[TranslationKeys::LINE_COLORS] = "Linhas";
+    Portuguese[TranslationKeys::BUTTON_COLORS] = "Botões";
+    Portuguese[TranslationKeys::COMBO_COLORS] = "Combos";
+
+    // Rainbow Effect
+    Portuguese[TranslationKeys::RAINBOW_INTERFACE] = "Interface Arco-Íris";
+    Portuguese[TranslationKeys::RAINBOW_INTERFACE_DESC] = "Aplica efeito de ciclo de cores na interface.";
+    Portuguese[TranslationKeys::REAL_TIME_CONFIG] = "Configuração em Tempo Real";
+    Portuguese[TranslationKeys::REAL_TIME_CONFIG_DESC] = "Ajuste o efeito arco-íris em tempo real.";
+    Portuguese[TranslationKeys::RAINBOW_MUST_BE_ENABLED] = "Interface Arco-Íris deve estar ativada.";
+
+    // Language Selection
+    Portuguese[TranslationKeys::INTERFACE_LANGUAGE] = "Idioma da Interface";
+    Portuguese[TranslationKeys::LANGUAGE_SELECT] = "Selecione o Idioma:";
+    Portuguese[TranslationKeys::TEXT_LANGUAGE_CONTRIBUTION] = "Deseja adicionar seu idioma?\nEntre em contato para ajudar com as traduções";
+
+    // UI Scaling
+    Portuguese[TranslationKeys::UI_SCALING] = "Escala da Interface";
+    Portuguese[TranslationKeys::UI_SCALING_DESC] = "Ajusta o tamanho de todos os elementos.\nÚtil para telas grandes ou TVs.";
+    Portuguese[TranslationKeys::TEXT_CURRENT_SCALE] = "Escala atual: %.1fx";
+    Portuguese[TranslationKeys::BUTTON_RESET_SCALE] = "Redefinir para 1.0x";
+
+    // Color Picker
+    Portuguese[TranslationKeys::COLOR_PICKER_TAB] = "Guia";
+    Portuguese[TranslationKeys::COLOR_PICKER_BG] = "Fundo";
+    Portuguese[TranslationKeys::COLOR_PICKER_LINE] = "Linha";
+    Portuguese[TranslationKeys::COLOR_PICKER_COMBO] = "Combo";
+    Portuguese[TranslationKeys::COLOR_PICKER_BUTTON] = "Botão";
+    Portuguese[TranslationKeys::TOOLTIP_COLOR_READABILITY] = "A cor será ajustada automaticamente para manter legibilidade.";
+
+    // Reset Buttons
+    Portuguese[TranslationKeys::BUTTON_RESET_TAB_COLORS] = "Redefinir Guias";
+    Portuguese[TranslationKeys::BUTTON_RESET_BACKGROUND_COLOR] = "Redefinir Fundo";
+    Portuguese[TranslationKeys::BUTTON_RESET_LINE_COLOR] = "Redefinir Linha";
+    Portuguese[TranslationKeys::BUTTON_RESET_COMBO_COLORS] = "Redefinir Combos";
+    Portuguese[TranslationKeys::BUTTON_RESET_BUTTON_COLORS] = "Redefinir Botões";
+
+    // Rainbow Configuration
+    Portuguese[TranslationKeys::RAINBOW_CONFIG_WINDOW] = "Configuração Arco-Íris";
+    Portuguese[TranslationKeys::SLIDER_SPEED] = "Velocidade";
+    Portuguese[TranslationKeys::SLIDER_INTENSITY] = "Intensidade";
+    Portuguese[TranslationKeys::SLIDER_SATURATION] = "Saturação";
+    Portuguese[TranslationKeys::SLIDER_BRIGHTNESS] = "Brilho";
+    Portuguese[TranslationKeys::SLIDER_ALPHA] = "Transparência";
+    Portuguese[TranslationKeys::BUTTON_RESET_DEFAULTS] = "Redefinir Padrões";
+
+    // HP Bar Settings
+    Portuguese[TranslationKeys::TAB_HP_BAR] = "Barra de HP";
+    Portuguese[TranslationKeys::DYNAMIC_HP_COLOR] = "Cor Dinâmica de HP";
+    Portuguese[TranslationKeys::RAINBOW_EFFECT] = "Efeito Arco-Íris";
+    Portuguese[TranslationKeys::CUSTOM_COLOR] = "Cor Personalizada";
+    Portuguese[TranslationKeys::RESET_COLOR] = "Redefinir Cor";
+    Portuguese[TranslationKeys::HP_POSITION_SETTINGS] = "Configurações de Posição do HP:";
+    Portuguese[TranslationKeys::POSITION_PRESETS] = "Predefinições de Posição:";
+    Portuguese[TranslationKeys::COMBO_POSITION] = "Posição";
+    Portuguese[TranslationKeys::HP_BAR_SETTINGS] = "Configurações da Barra de HP:";
+    Portuguese[TranslationKeys::SHOW_HP_BAR] = "Mostrar Barra de HP";
+    Portuguese[TranslationKeys::SHOW_ONLY_HP_BAR] = "Mostrar Apenas Barra de HP";
+    Portuguese[TranslationKeys::TAB_SIZE_POSITION] = "Tamanho e Posição";
+    Portuguese[TranslationKeys::BAR_HEIGHT] = "Altura da Barra";
+    Portuguese[TranslationKeys::BAR_WIDTH] = "Largura da Barra";
+    Portuguese[TranslationKeys::TAB_APPEARANCE] = "Aparência";
+    Portuguese[TranslationKeys::APPEARANCE_SETTINGS] = "Configurações de Aparência:";
+    Portuguese[TranslationKeys::BORDER_SIZE] = "Espessura da Borda";
+    Portuguese[TranslationKeys::CORNER_ROUNDNESS] = "Arredondamento dos Cantos";
+    Portuguese[TranslationKeys::CUSTOM_BG_OPACITY] = "Opacidade Personalizada do Fundo";
+    Portuguese[TranslationKeys::BG_OPACITY] = "Opacidade do Fundo";
+    Portuguese[TranslationKeys::TEXT_DISPLAY] = "Exibição de Texto:";
+    Portuguese[TranslationKeys::SHOW_PERCENTAGE] = "Mostrar Porcentagem";
+    Portuguese[TranslationKeys::SHOW_HP_VALUE] = "Mostrar Valor de HP";
+    Portuguese[TranslationKeys::EFFECTS_TAB] = "Efeitos";
+    Portuguese[TranslationKeys::GLOWING_BORDER] = "Borda Brilhante";
+    Portuguese[TranslationKeys::GLOW_INTENSITY] = "Intensidade do Brilho";
+    Portuguese[TranslationKeys::PULSE_EFFECT] = "Efeito de Pulsação";
+    Portuguese[TranslationKeys::PULSE_SPEED] = "Velocidade da Pulsação";
+    Portuguese[TranslationKeys::CRITICAL_HP_PULSE] = "Pulsação Rápida em HP Crítico";
+    Portuguese[TranslationKeys::DAMAGE_FLASH_EFFECT] = "Efeito de Flash ao Receber Dano";
+    Portuguese[TranslationKeys::SMOOTH_HP_ANIMATION] = "Animação Suave de HP";
+
+    //=============================================================================
+    // 11. UTILITY FEATURES
+    //=============================================================================
+    Portuguese[TranslationKeys::MISC_FEATURES] = "Recursos Diversos";
+    Portuguese[TranslationKeys::UTILITY_FEATURES] = "Utilitários";
+    Portuguese[TranslationKeys::MISC_SETTINGS] = "Configurações Diversas";
+    Portuguese[TranslationKeys::MISC_CHEATS] = "Cheats Diversos";
+
+    // Action Buttons
+    Portuguese[TranslationKeys::ACTION_BUTTONS] = "Botões de Ação";
+    Portuguese[TranslationKeys::UNLOCK_ALL] = "Desbloquear Tudo";
+    Portuguese[TranslationKeys::SUCCESSFULLY_UNLOCKED] = "Desbloqueado com sucesso!";
+    Portuguese[TranslationKeys::UNLOCK_ALL_MERCHANT_ITEMS] = "Desbloquear todos os itens do mercante";
+    Portuguese[TranslationKeys::OPEN_MERCHANT] = "Abrir Mercante";
+    Portuguese[TranslationKeys::OPEN_SAVE] = "Abrir Salvamento";
+    Portuguese[TranslationKeys::OPENING_SAVE] = "Abrindo salvamento...";
+    Portuguese[TranslationKeys::OPENING_MERCHANT] = "Abrindo mercante...";
+
+    // Cheats
+    Portuguese[TranslationKeys::INTERACTION_CHEATS] = "Cheats de Interação";
+    Portuguese[TranslationKeys::RESOURCE_CHEATS] = "Cheats de Recursos";
+
+    // VRAM Cleaner
+    Portuguese[TranslationKeys::VRAM_INFO] = "Esta função limpa a VRAM ao mudar de área, evitando crashes devido a vazamentos de memória.\n\nEla age como se o jogo tivesse sido fechado e reaberto, mas sem interromper sua jogabilidade.\nRecomenda-se deixá-la ativada para longas sessões de jogo.";
+    Portuguese[TranslationKeys::VRAM_CLEANER_TITLE] = "Limpador de VRAM";
+    Portuguese[TranslationKeys::CLEANUPS_IN_SESSION] = "Limpezas nesta sessão: %d";
+
+    // Resource Manipulation
+    Portuguese[TranslationKeys::PLAGA_SPAWN] = "Controle de Plagas";
+    Portuguese[TranslationKeys::PLAGA_HELPMARK] = "Os inimigos têm uma propriedade que permite ou não gerar plagas.\nPara aqueles que a têm, é possível configurar a chance de geração.\n\nVale lembrar que isso é apenas para inimigos que tenham plaga devidamente definida.\nSe você quiser 100% de geração de plagas, pode usar a função abaixo.";
+    Portuguese[TranslationKeys::PLAGA_100] = "Sempre Spawnar Plagas";
+    Portuguese[TranslationKeys::PLAGA_100_HELPMARK] = "Todo inimigo morto irá spawnar plaga.";
+    Portuguese[TranslationKeys::RANDOM_PTAS] = "Controle de Ptas";
+    Portuguese[TranslationKeys::MONEY_HELPMARK] = "Você pode manipular a quantidade de dinheiro que os inimigos podem dropar.\n\nPara evitar ficar tão apelativo, nem todos os drops de dinheiro serão aumentados/diminuídos.";
+    Portuguese[TranslationKeys::CURRENT_MONEY] = "Dinheiro atual: %d";
+    Portuguese[TranslationKeys::ADD_AMOUNT] = "Quantia a adicionar";
+    Portuguese[TranslationKeys::ADD_MONEY] = "Adicionar dinheiro";
+    Portuguese[TranslationKeys::SET_SPECIFIC_VALUE] = "Definir valor específico:";
+
+    // Auto-Save
+    Portuguese[TranslationKeys::AUTO_SAVE] = "Auto-Salvamento";
+    Portuguese[TranslationKeys::AUTO_SAVE_HELPMARK] = "Seu progresso será salvo automaticamente no último slot usado.\n\nNão há risco de corrupção de dados, mas como o sistema salva sozinho, ele pode sobrescrever um slot que você não queria alterar.\n\nDica: Se você planeja usar o recurso de salvamento automático, é recomendável usar sempre o mesmo slot para evitar sobrescrever salvamentos importantes.";
+    Portuguese[TranslationKeys::TEXT_SAVE_INTERVAL] = " Intervalo de salvamento (minutos)";
+    Portuguese[TranslationKeys::CHECKBOX_AUTO_CONFIRM] = "Auto-confirmação";
+    Portuguese[TranslationKeys::HELP_AUTO_CONFIRM] = "Habilitado por padrão, confirma automaticamente os salvamentos sem exigir interação manual.";
+    Portuguese[TranslationKeys::CHECKBOX_NOTIFICATION_MODE] = "Modo notificação";
+    Portuguese[TranslationKeys::HELP_NOTIFICATION_MODE] = "Mostra notificação quando é hora de salvar.\nTecla padrão: F5";
+    Portuguese[TranslationKeys::AUTOSAVE_POPUP_TITLE] = "Informações do Auto-Salvamento";
+    Portuguese[TranslationKeys::AUTOSAVE_POPUP_MESSAGE] = "IMPORTANTE: Quando o salvamento automático estiver prestes a ser ativado (faltando menos de 1 segundo) com a confirmação automática ativada, seu personagem ficará brevemente congelado. Isso é intencional para evitar que qualquer entrada interfira no processo de salvamento.\n\nEvite pressionar qualquer tecla ou clicar com o mouse durante esse momento. Embora o sistema tenha medidas de proteção, este aviso é fornecido para minimizar qualquer interrupção no salvamento automático.";
+    Portuguese[TranslationKeys::AUTOSAVE_CONFIRM_TEXT] = "Entendi";
+    Portuguese[TranslationKeys::AUTOSAVE_CANCEL_TEXT] = "Desativar Auto-Salvamento";
+    Portuguese[TranslationKeys::GAME_SAVED_SUCCESSFULLY] = "Jogo salvo com sucesso!";
+    Portuguese[TranslationKeys::SAVE_MENU_OPENED] = "Menu de salvamento aberto";
+    Portuguese[TranslationKeys::AUTO_SAVE_NO_WINDOW] = "Auto-save: Não foi possível encontrar a janela do jogo";
+    Portuguese[TranslationKeys::SAVE_OPENED_SUCCESS] = "Salvar carregado com sucesso! Considere salvar o jogo";
+    Portuguese[TranslationKeys::AUTO_SAVE_PENDING] = "Auto-save pendente – aguardando retorno da jogabilidade";
+    Portuguese[TranslationKeys::AUTO_SAVE_IN] = "Auto-save em ";
+    Portuguese[TranslationKeys::AUTO_SAVE_STARTED] = "Temporizador de auto-save iniciado: ";
+    Portuguese[TranslationKeys::AUTO_SAVE_MINUTE] = " minuto";
+    Portuguese[TranslationKeys::AUTO_SAVE_MINUTES] = " minutos";
+    Portuguese[TranslationKeys::AUTO_SAVE_RESUMED] = "Temporizador de auto-save retomado";
+    Portuguese[TranslationKeys::AUTO_SAVE_PAUSED] = "Temporizador de auto-save pausado";
+    Portuguese[TranslationKeys::PRESS_TO_SAVE_PREFIX] = "Pressione ";
+    Portuguese[TranslationKeys::PRESS_TO_SAVE_SUFFIX] = " para salvar o jogo";
+    Portuguese[TranslationKeys::AUTO_SAVE_PAUSED_FOCUS] = "Auto-save pausado: o jogo perdeu o foco";
+    Portuguese[TranslationKeys::AUTO_SAVE_RESUMED_FOCUS] = "Auto-save retomado: o jogo voltou ao foco";
+    Portuguese[TranslationKeys::WARNING_DISABLE_NOTIFICATION_MODE] = "Desative o modo de notificação primeiro para ativar a confirmação automática. Essas funções são mutuamente exclusivas.";
+    Portuguese[TranslationKeys::WARNING_DISABLE_AUTO_CONFIRM] = "Desative a Auto-confirmação primeiro para ativar o Modo Notificação. Esses recursos são mutuamente exclusivos.";
+
+    // Auto-Heal System
+    Portuguese[TranslationKeys::AUTO_HEAL] = "Auto-Cura";
+    Portuguese[TranslationKeys::AUTO_HEAL_INFO] = "Usa itens de cura automaticamente quando a vida cai abaixo dos limites definidos.";
+    Portuguese[TranslationKeys::SETTINGS_TAB] = "Configurações";
+    Portuguese[TranslationKeys::HEALTH_THRESHOLDS] = " Limiares de vida:";
+    Portuguese[TranslationKeys::ALLOWED_ITEMS] = " Itens de cura permitidos:";
+    Portuguese[TranslationKeys::FIRST_AID_SPRAY] = "Spray";
+    Portuguese[TranslationKeys::MIXED_HERBS_RGY] = "Ervas (R+G+Y)";
+    Portuguese[TranslationKeys::MIXED_HERBS_RG] = "Ervas (R+G)";
+    Portuguese[TranslationKeys::GOLD_EGG] = "Ovo dourado";
+    Portuguese[TranslationKeys::GREEN_HERBS_3X] = "Ervas verdes (x3)";
+    Portuguese[TranslationKeys::HOW_IT_WORKS] = "Como funciona";
+    Portuguese[TranslationKeys::AUTO_HEAL_DESC_1] = "O sistema monitora e usa automaticamente itens de cura quando sua vida cai abaixo dos limites.";
+    Portuguese[TranslationKeys::AUTO_HEAL_DESC_2] = "Os itens são usados na seguinte ordem de prioridade:";
+    Portuguese[TranslationKeys::AUTO_HEAL_DESC_3] = "Desative itens específicos se quiser economizá-los";
+    Portuguese[TranslationKeys::AUTO_HEAL_DESC_4] = "Por padrão, já está configurado para ser usado em danger ou caution.";
+    Portuguese[TranslationKeys::CAUTION_THRESHOLD] = "Amarelo";
+    Portuguese[TranslationKeys::DANGER_THRESHOLD] = "Vermelho";
+    Portuguese[TranslationKeys::CURRENT_HEALTH] = "Vida atual";
+    Portuguese[TranslationKeys::MAXIMUM_HEALTH] = "Vida máxima";
+    Portuguese[TranslationKeys::COMBINED_HERB] = "Ervas combinadas (+60 HP)";
+
+    // Quick Restart
+    Portuguese[TranslationKeys::QUICK_RESTART] = "Reinício Rápido";
+    Portuguese[TranslationKeys::QUICK_RESTART_HELPMARK] = "Pressione a tecla de atalho configurada para reiniciar a partir do último checkpoint.\n\nTecla padrão: END";
+
+    // Extended Inventory
+    Portuguese[TranslationKeys::EXTENDED_INVENTORY] = "Inventário Estendido";
+    Portuguese[TranslationKeys::EXTENDED_INVENTORY_HELPMARK] = "Permite armazenar itens no lado direito do inventario, sem que eles sejam deletados.";
+
+    // Auto QTE
+    Portuguese[TranslationKeys::AUTO_QTE] = "QTE Automático";
+    Portuguese[TranslationKeys::AUTO_QTE_HELPMARK] = "Completa Quick Time Events automaticamente.";
+
+    // Disable Music
+    Portuguese[TranslationKeys::DISABLE_BGM] = "Desativar Música";
+    Portuguese[TranslationKeys::DISABLE_BGM_HELPMARK] = "Remove as músicas de fundo mas mantendo efeitos sonoros.";
+
+    // Increased Drops
+    Portuguese[TranslationKeys::INCREASED_DROPS] = "Drops Aumentados";
+    Portuguese[TranslationKeys::INCREASED_DROPS_HELPMARK] = "Aumenta chance de inimigos droparem itens.";
+
+    // Stable Laser
+    Portuguese[TranslationKeys::STABLE_LASER] = "Laser Estável";
+    Portuguese[TranslationKeys::STABLE_LASER_HELPMARK] = "Remove tremor ao mirar, deixando laser completamente estável.";
+
+    // Force Filter
+    Portuguese[TranslationKeys::FORCE_FILTER4] = "Forçar Filtro 4";
+    Portuguese[TranslationKeys::FORCE_FILTER4_HELPMARK] = "Força o filtro do jogo a ser sempre 4.\n\nÚtil para modders implementarem seus próprios gradientes e não permitir que o usuário os remova.";
+
+    // Panic Mode
+    Portuguese[TranslationKeys::PANIC_MODE] = "Modo de Pânico";
+    Portuguese[TranslationKeys::PANIC_MODE_TOOLTIP] = "Desativa todos os recursos ativos de uma vez";
+
+    //=============================================================================
+    // 12. HOTKEYS
+    //=============================================================================
+    Portuguese[TranslationKeys::HOTKEYS] = "Teclas de Atalho";
+    Portuguese[TranslationKeys::TOGGLE_HOTKEYS] = "Alternar Teclas";
+    Portuguese[TranslationKeys::FEATURE_TOGGLES] = "Alternar Recursos";
+    Portuguese[TranslationKeys::TEXT_QUICK_ACCESS] = "Acesso Rápido";
+
+    // Window Hotkeys
+    Portuguese[TranslationKeys::WINDOW_HOTKEYS] = "Teclas de Janela";
+    Portuguese[TranslationKeys::WINDOW_CONTROLS] = "Controles de Janela";
+    Portuguese[TranslationKeys::OPEN_MAIN_MENU] = "Abrir Menu Principal";
+    Portuguese[TranslationKeys::OPEN_MEMORY_EDITOR] = "Abrir Editor de Memória";
+
+    // Gameplay Hotkeys
+    Portuguese[TranslationKeys::GAMEPLAY_HOTKEYS] = "Teclas de Jogo";
+    Portuguese[TranslationKeys::GAMEPLAY_CONTROLS] = "Controles de Jogo";
+    Portuguese[TranslationKeys::TOGGLE_SPEEDHACK] = "Alternar SpeedHack";
+    Portuguese[TranslationKeys::TOGGLE_DISABLE_COLLISION] = "Alternar Colisão";
+
+    // Combat Hotkeys
+    Portuguese[TranslationKeys::COMBAT_HOTKEYS] = "Teclas de Combate";
+
+    // Custom Keys Hint
+    Portuguese[TranslationKeys::TEXT_CUSTOM_KEYS_HINT] = "Defina teclas personalizadas na seção de atalhos";
+
+    //=============================================================================
+    // 13. INVENTORY AND ITEMS
+    //=============================================================================
+    Portuguese[TranslationKeys::GET_ITEM] = "Obter Item";
+    Portuguese[TranslationKeys::ITEM_ID] = "ID do Item";
+    Portuguese[TranslationKeys::AMOUNT] = "Quantidade";
+    Portuguese[TranslationKeys::ITEM_ACQUIRED] = "Item obtido!";
+    Portuguese[TranslationKeys::ITEM_TO_INVENTORY] = "O item irá diretamente para seu inventário";
+    Portuguese[TranslationKeys::CLICK_SHOW_PREVIEW] = "Clique para mostrar prévia";
+
+    // Inventory Viewer
+    Portuguese[TranslationKeys::INVENTORY_VIEWER] = "Visualizador de Inventário";
+    Portuguese[TranslationKeys::INVENTORY_TRACKER] = "Rastreador de Inventário";
+
+    //=============================================================================
+    // 14. STAGES AND AREAS
+    //=============================================================================
+    Portuguese[TranslationKeys::STAGES] = "Áreas";
+    Portuguese[TranslationKeys::AREA_JUMP] = "Pular Área";
+    Portuguese[TranslationKeys::ROOM_INPUT_HELP] = "Use o campo abaixo para inserir a sala desejada";
+    Portuguese[TranslationKeys::ST_TABS_HELP] = "Navegue pelas guias ST ou busque uma sala específica";
+    Portuguese[TranslationKeys::TEXT_SELECT_ROOM_TELEPORT] = "Selecione uma sala para teleportar";
+    Portuguese[TranslationKeys::TEXT_TELEPORT_INSTRUCTIONS] = "Navegue pelas guias ou busque uma sala.\nClique duas vezes para teleportar!";
+
+    //=============================================================================
+    // 15. TOOLS AND EDITORS
+    //=============================================================================
+    Portuguese[TranslationKeys::MEMORY_EDITOR] = "Editor de Memória";
+    Portuguese[TranslationKeys::HEX_EDITOR] = "Editor Hexadecimal";
+    Portuguese[TranslationKeys::MEMORY_USAGE] = "Uso:";
+
+    // Memory Editor
+    Portuguese[TranslationKeys::LABEL_MEMORY_ADDRESS] = "Endereço de Memória";
+    Portuguese[TranslationKeys::LABEL_MEMORY_SIZE] = "Tamanho da Memória";
+    Portuguese[TranslationKeys::BUTTON_SEARCH_ADDRESS] = "Buscar Endereço";
+    Portuguese[TranslationKeys::POPUP_INVALID_ADDRESS] = "Endereço Inválido";
+    Portuguese[TranslationKeys::TEXT_INVALID_ADDRESS_MESSAGE] = "Endereço inválido, insira um válido";
+    Portuguese[TranslationKeys::TEXT_ADDRESS_RANGE_MESSAGE] = "Endereço deve estar entre %X e %X";
+
+    // Subtabs
+    Portuguese[TranslationKeys::SUBTAB_STAGES] = "Áreas";
+    Portuguese[TranslationKeys::SUBTAB_INVENTORY] = "Inventário";
+    Portuguese[TranslationKeys::SUBTAB_HEX_EDITOR] = "Editor Hex";
+
+    //=============================================================================
+    // 16. MODLOADER
+    //=============================================================================
+    Portuguese[TranslationKeys::MODLOADER] = "Modloader";
+    Portuguese[TranslationKeys::ONLINE_MODS_BUTTON] = "Mods Online";
+    Portuguese[TranslationKeys::LOCAL_MODS_BUTTON] = "Mods Locais";
+    Portuguese[TranslationKeys::UPDATE_MODS_BUTTON] = "Atualizar Mods";
+    Portuguese[TranslationKeys::MOD_MANAGER_WELCOME] = "Bem-vindo ao Gerenciador de Mods!";
+
+    // Mod Manager Info
+    Portuguese[TranslationKeys::ONLINE_MODS_SYSTEM_DESCRIPTION] = "Explore o sistema de mods online";
+    Portuguese[TranslationKeys::MODS_CREATED_BY_DESCRIPTION] = "Os mods criados por mim, o desenvolvedor deste trainer, estão disponíveis por meio de uma plataforma online integrada.";
+    Portuguese[TranslationKeys::NEW_MODS_DESCRIPTION] = "Novos mods podem ser adicionados a qualquer momento! Basta clicar no botão Atualizar para conferir as últimas novidades.";
+    Portuguese[TranslationKeys::MODS_AVAILABLE_ONLINE] = "Encontrados %d mods online!";
+    Portuguese[TranslationKeys::NO_MODS_AVAILABLE] = "Clique em Atualizar Mods para verificar";
+
+    // Instructions
+    Portuguese[TranslationKeys::HOW_TO_USE_TITLE] = "Como usar:";
+    Portuguese[TranslationKeys::MOD_INSTRUCTION_1] = "Clique em Mods Online para abrir o navegador";
+    Portuguese[TranslationKeys::MOD_INSTRUCTION_2] = "Clique em Atualizar Mods para novas adições";
+    Portuguese[TranslationKeys::MOD_INSTRUCTION_3] = "Clique em Obter Info para ver detalhes";
+    Portuguese[TranslationKeys::MOD_INSTRUCTION_4] = "Clique em Baixar para obter o mod desejado";
+
+    // Warnings
+    Portuguese[TranslationKeys::WARNING_NOTE_TITLE] = "Nota:";
+    Portuguese[TranslationKeys::HD_PROJECT_WARNING] = "O HD Project pode ser necessário para alguns mods. Verifique os detalhes do mod para ver os requisitos.";
+
+    //=============================================================================
+    // 17. MP3 PLAYER
+    //=============================================================================
+    Portuguese[TranslationKeys::ENABLE_LYRICS] = "Ativar Letras";
+
+    // Tabs
+    Portuguese[TranslationKeys::MUSIC_TAB_STREAMING] = "Streaming";
+    Portuguese[TranslationKeys::MUSIC_TAB_LOCAL_FILES] = "Arquivos Locais";
+    Portuguese[TranslationKeys::MUSIC_TAB_NOTES] = "Notas";
+
+    // Quick Guide
+    Portuguese[TranslationKeys::QUICK_START_GUIDE] = "Guia Rápido";
+    Portuguese[TranslationKeys::PLAYING_LOCAL] = "Reprodução Local";
+    Portuguese[TranslationKeys::IMPORTANT_NOTES] = "Notas Importantes";
+    Portuguese[TranslationKeys::STREAMING_FILE_INSTRUCTIONS] = "Crie um arquivo .txt na pasta kreed/streaming com os formatos:";
+    Portuguese[TranslationKeys::LOCAL_FILES_OFFLINE_INSTRUCTION] = "Coloque arquivos de música na pasta local para reprodução offline";
+    Portuguese[TranslationKeys::ESSENTIAL_MUSIC_EXPERIENCE_INFO] = "Informações essenciais para melhor experiência";
+
+    // Lyrics and Playlists
+    Portuguese[TranslationKeys::SONGS_WITH_LYRICS] = "Músicas com Letras";
+    Portuguese[TranslationKeys::TXT_FILE_FORMAT_DESCRIPTION] = "Arquivo .txt com formato:";
+    Portuguese[TranslationKeys::LYRICS_TIMESTAMP_NOTE] = "Marcadores de tempo em segundos. Letras opcionais.";
+    Portuguese[TranslationKeys::CREATING_PLAYLISTS] = "Criando Playlists";
+    Portuguese[TranslationKeys::PLAYLIST_FILE_FORMAT_DESCRIPTION] = "Arquivo playlist.txt com formato:";
+    Portuguese[TranslationKeys::PLAYLIST_EXAMPLE_TITLE] = "Never Gonna Give You Up";
+    Portuguese[TranslationKeys::PLAYLIST_EXAMPLE_URL] = "kreedy.net/rick";
+
+    // Recommended Formats
+    Portuguese[TranslationKeys::RECOMMENDED_FORMATS] = "Formatos Recomendados";
+    Portuguese[TranslationKeys::ALL_SUPPORTED_FORMATS] = "Todos Formatos Suportados";
+    Portuguese[TranslationKeys::MP3_FORMAT_DESCRIPTION] = ".mp3\n- Melhor compressão\n- Amplo suporte\n- Tamanho menor";
+    Portuguese[TranslationKeys::MP3_QUALITY_NOTE] = "MP3 mantém qualidade com menos espaço";
+    Portuguese[TranslationKeys::HIGH_QUALITY_FORMATS] = "Alta Qualidade:";
+    Portuguese[TranslationKeys::STANDARD_FORMATS] = "Padrão:";
+    Portuguese[TranslationKeys::OTHER_FORMATS] = "Outros:";
+
+    // Performance
+    Portuguese[TranslationKeys::PERFORMANCE_TIPS_TITLE] = "Dicas para melhor desempenho:";
+    Portuguese[TranslationKeys::NAMING_CONVENTION_TIP] = "Use convenções de nome consistentes";
+    Portuguese[TranslationKeys::LOCAL_FILES_LOADING_TIP] = "Arquivos locais carregam instantaneamente";
+    Portuguese[TranslationKeys::STREAMING_INFORMATION] = "Informações de Streaming";
+    Portuguese[TranslationKeys::RECOMMENDED_HOST] = "Host Recomendado:\ncatbox.moe";
+    Portuguese[TranslationKeys::FREE_HOSTING_TIP] = "Serviço de hospedagem gratuito";
+    Portuguese[TranslationKeys::ZERO_LATENCY_TIP] = "Latência zero";
+    Portuguese[TranslationKeys::NO_REGISTRATION_TIP] = "Sem necessidade de registro";
+
+    // System Requirements
+    Portuguese[TranslationKeys::SYSTEM_REQUIREMENTS] = "Requisitos do Sistema";
+    Portuguese[TranslationKeys::ACTIVE_INTERNET_TIP] = "Internet ativa para streaming";
+    Portuguese[TranslationKeys::NO_SPECIAL_DRIVERS_TIP] = "Nenhum driver especial necessário";
+    Portuguese[TranslationKeys::PERFORMANCE_TIPS] = "Dicas de Desempenho";
+    Portuguese[TranslationKeys::DIRECT_LINKS_LOADING_TIP] = "Use links diretos para carregamento mais rápido";
+    Portuguese[TranslationKeys::STABLE_CONNECTION_TIP] = "Mantenha conexão estável";
+
+    // Memory Management
+    Portuguese[TranslationKeys::MEMORY_MANAGEMENT] = "Gerenciamento de Memória";
+    Portuguese[TranslationKeys::MEMORY_USAGE_DESCRIPTION] = "A música é transmitida diretamente e não armazenada na memória, garantindo o uso eficiente dos recursos.";
+
+    // Templates
+    Portuguese[TranslationKeys::SONG_FILE_TEMPLATE] =
+        "TITLE=\n"
+        "FILENAME=\n"
+        "URL=\n"
+        "START=0.0\n"
+        "\n"
+        "1.0|Primeira linha da letra\n"
+        "3.0|Segunda linha da letra";
+
+    Portuguese[TranslationKeys::PLAYLIST_FILE_TEMPLATE] =
+        "Nome|URL\n"
+        "\n"
+        "Exemplo:\n"
+        "Never Gonna Give You Up|kreedy.net/rick";
+
+    // Music Player Controls
+    Portuguese[TranslationKeys::TEXT_MUSIC_PLAYER_CONTROLS] = "Controles do Player de Música";
+    Portuguese[TranslationKeys::TEXT_SKIP_SONG] = "Pular Música";
+
+    //=============================================================================
+    // 18. SAVE/LOAD AND CONFIGURATION
+    //=============================================================================
+    Portuguese[TranslationKeys::SAVE_LOAD] = "Salvar/Carregar";
+
+    // Save Controls
+    Portuguese[TranslationKeys::TEXT_SAVE_CONTROLS] = "Controles de Salvamento";
+    Portuguese[TranslationKeys::TEXT_AUTO_SAVE_CONFIRM] = "Confirmação de Auto-Salvamento";
+
+    //=============================================================================
+    // 19. ABOUT AND CREDITS
+    //=============================================================================
+    Portuguese[TranslationKeys::ABOUT_TRAINER] = "Sobre";
+    Portuguese[TranslationKeys::CONTACT_INFO] = "Informações de Contato";
+    Portuguese[TranslationKeys::VERSION_INFO] = "Informações do Trainer";
+
+    // Trainer Info
+    Portuguese[TranslationKeys::TRAINER_INFO] = "Versão Premium do Trainer Interno";
+    Portuguese[TranslationKeys::CREATOR_INFO] = "Desenvolvido por Kreed";
+
+    // External Links
+    Portuguese[TranslationKeys::DISCORD_SERVER] = "Servidor do Discord";
+    Portuguese[TranslationKeys::VISIT_WEBSITE] = "Visitar Site";
+
+    // Updates
+    Portuguese[TranslationKeys::TITLE_UPDATES_VERSION_CONTROL] = "Atualizações e Controle de Versão";
+    Portuguese[TranslationKeys::TITLE_UPDATE_OPTIONS] = "Opções de Atualização";
+    Portuguese[TranslationKeys::TITLE_NEW_VERSION_AVAILABLE] = "Nova Versão Disponível!";
+    Portuguese[TranslationKeys::TEXT_CURRENT_VERSION] = "Versão Atual: %s";
+    Portuguese[TranslationKeys::TEXT_NEW_VERSION_AVAILABLE] = "Nova Versão Disponível: %s";
+    Portuguese[TranslationKeys::TEXT_VERSION_UP_TO_DATE] = "Sua versão está atualizada";
+    Portuguese[TranslationKeys::TEXT_DOWNLOADING] = "Baixando... %.1f%%";
+    Portuguese[TranslationKeys::TEXT_DOWNLOAD_COMPLETE] = "Download Completo!";
+    Portuguese[TranslationKeys::TEXT_FILE_SAVED_TO] = "Arquivo salvo em: kreed/update.zip";
+    Portuguese[TranslationKeys::TEXT_REPLACE_TRAINER] = "Substitua o trainer atual pelo novo";
+    Portuguese[TranslationKeys::TEXT_PRESS_KEY_TO_DOWNLOAD] = "Você também pode pressionar %s para baixar";
+    Portuguese[TranslationKeys::BUTTON_DOWNLOAD_UPDATE] = "Baixar Atualização";
+    Portuguese[TranslationKeys::BUTTON_CHECK_UPDATES] = "Verificar Atualizações";
+    Portuguese[TranslationKeys::CHECKBOX_CHECK_UPDATES_STARTUP] = "Verificar atualizações ao iniciar";
+    Portuguese[TranslationKeys::NOTIFICATION_CURRENT_VERSION] = "Versão atual: %s";
+    Portuguese[TranslationKeys::NOTIFICATION_NEW_VERSION] = "Nova versão: %s";
+    Portuguese[TranslationKeys::NOTIFICATION_DOWNLOADING] = "Baixando...";
+    Portuguese[TranslationKeys::NOTIFICATION_DOWNLOAD_COMPLETE] = "Download Completo!";
+    Portuguese[TranslationKeys::NOTIFICATION_UPDATE_SAVED] = "Atualização salva na pasta kreed";
+
+    // Update Controls
+    Portuguese[TranslationKeys::TEXT_UPDATE_CONTROLS] = "Controles de Atualização";
+    Portuguese[TranslationKeys::BUTTON_PRESS_KEY] = "Pressione ";
+    Portuguese[TranslationKeys::TO_DOWNLOAD] = " para baixar";
+
+    //=============================================================================
+    // 20. ADVANCED FEATURES
+    //=============================================================================
+    // Kill Aura
+    Portuguese[TranslationKeys::KILL_AURA] = "Aura de Morte";
+    Portuguese[TranslationKeys::KILL_AURA_HELPMARK] = "Mata todos os inimigos ao redor do personagem.";
+
+    // Kill Ashley
+    Portuguese[TranslationKeys::ALLOW_KILL_ASHLEY] = "Permitir Matar Ashley";
+    Portuguese[TranslationKeys::ALLOW_KILL_ASHLEY_HELPMARK] = "Remove o Mission Failed quando a Ashley morre.";
+
+    // Auto Skip Cutscenes
+    Portuguese[TranslationKeys::AUTO_SKIP_CUTSCENES] = "Pular Cutscenes Automaticamente";
+    Portuguese[TranslationKeys::AUTO_SKIP_CUTSCENES_HELPMARK] = "Pula cutscenes do jogo automaticamente.";
+
+    // Auto Restart on Death
+    Portuguese[TranslationKeys::MONITOR_HEALTH] = "Reinício Automático ao Morrer";
+    Portuguese[TranslationKeys::MONITOR_HEALTH_HELPMARK] = "Detecta quando você morreu e chama automaticamente o restart checkpoint.\nVocê nem verá a tela de morte.";
+
+    // Arrow Drops
+    Portuguese[TranslationKeys::DROP_SIDELOAD] = "Drops de Flechas";
+    Portuguese[TranslationKeys::DROP_SIDELOAD_HELPMARK] = "Ativa o drop de flechas, útil para jogar com Krauser.\nIsso ativa o arrows.nia dentro da pasta de sideload.\n\nEle está configurado para flechas, granadas, ervas e dinheiro. (Importante: NÃO irá dropar munição de arma a menos que você configure para isso. Eu removi por padrão).";
+
+    // Camera Modifications
+    Portuguese[TranslationKeys::NO_MELEE_CAM] = "Sem Câmera de Melee";
+    Portuguese[TranslationKeys::NO_MELEE_CAM_HELPMARK] = "Modifica comportamento da câmera ao usar o melee.";
+    Portuguese[TranslationKeys::NO_KNIFE_AIM_CAM] = "Sem Câmera de Mira/Faca";
+    Portuguese[TranslationKeys::NO_KNIFE_AIM_CAM_HELPMARK] = "Modifica comportamento ao mirar com armas/faca";
+
+    // Performance Effects
+    Portuguese[TranslationKeys::CORPSE_DEATH_EFFECT] = "Efeito de Morte";
+    Portuguese[TranslationKeys::CORPSE_DEATH_EFFECT_HELPMARK] = "Remove o efeito de partículas quando um corpo está desaparecendo do chão.\nPode ajudar no desempenho.";
+    Portuguese[TranslationKeys::CHAINSAW_SMOKE_EFFECTS] = "Efeitos de Fumaça";
+    Portuguese[TranslationKeys::CHAINSAW_SMOKE_EFFECTS_HELPMARK] = "Remove fumaça de motosserras.\nPode ajudar no desempenho se houver muitas motosserras na tela.";
+    Portuguese[TranslationKeys::DYNAMITE_EFFECTS] = "Efeitos de Dinamite";
+    Portuguese[TranslationKeys::DYNAMITE_EFFECTS_HELPMARK] = "Remove os efeitos da dinamite, deixando apenas pequenas partículas.\nPode ajudar no desempenho, mas também pode afetar parte do efeito do fogo.";
+
+    // Krauser Aura
+    Portuguese[TranslationKeys::BLUE_KRAUSER_AURA] = "Aura Azul do Krauser";
+    Portuguese[TranslationKeys::GREEN_KRAUSER_AURA] = "Aura Verde do Krauser";
+    Portuguese[TranslationKeys::WHITE_KRAUSER_AURA] = "Aura Branca do Krauser";
+    Portuguese[TranslationKeys::YELLOW_KRAUSER_AURA] = "Aura Amarela do Krauser";
+    Portuguese[TranslationKeys::RAINBOW_KRAUSER_AURA] = "Aura Arco-Íris do Krauser";
+    Portuguese[TranslationKeys::RAINBOW_KRAUSER_HELPMARK] = "Cicla entre cores RGB em tempo real";
+    Portuguese[TranslationKeys::CUSTOM_KRAUSER_AURA] = "Aura Personalizada do Krauser";
+    Portuguese[TranslationKeys::CUSTOM_KRAUSER_HELPMARK] = "Escolha uma cor personalizada para a aura";
+    Portuguese[TranslationKeys::GENERAL_KRAUSER_HELPMARK] = "Mudanças de cor em tempo real";
+    Portuguese[TranslationKeys::KRAUSER_AURA_LOCKED_MESSAGE] = "Recurso de Aura do Krauser bloqueado!";
+    Portuguese[TranslationKeys::KRAUSER_AURA_UNLOCK_INSTRUCTION] = "Troque para Krauser pelo menos uma vez para desbloquear";
+    Portuguese[TranslationKeys::KRAUSER_AURA_WAIT_MESSAGE] = "Aguardando, por favor aguarde...";
+    Portuguese[TranslationKeys::KRAUSER_AURA_SELECT_KRAUSER] = "Selecione Krauser para ativar este recurso";
+    Portuguese[TranslationKeys::KRAUSER_AURA_SCANNING_MESSAGE] = "Preparando memória para Aura do Krauser...";
+    Portuguese[TranslationKeys::KRAUSER_AURA_SCANNING_INSTRUCTION] = "Este processo pode levar alguns segundos";
+    Portuguese[TranslationKeys::KRAUSER_AURA_WAIT_FOR_GAME] = "Aguardando status in-game";
+
+    // Krauser Controls
+    Portuguese[TranslationKeys::KRAUSER_CONTROLS_ASHLEY] = "Krauser Controla Ashley";
+    Portuguese[TranslationKeys::KRAUSER_CONTROLS_ASHLEY_HELPMARK] = "Permite que Krauser controle Ashley.\n\nPara chamar Ashley, fique completamente parado e pressione o botão de chamada (geralmente Z).\nPara usar o braço, pressione o botão enquanto caminha.";
+
+    // Krauser Beret
+    Portuguese[TranslationKeys::KRAUSER_BERET_HELPMARK] = "Altera o modelo original do Krauser (sem camisa) para a versão com boina.\nEste recurso chama e sincroniza com o sistema online do modloader.";
+
+    // NiaSplit
+    Portuguese[TranslationKeys::NIA_SPLIT_MAIN] = "NiaSplit";
+    Portuguese[TranslationKeys::NIA_SPLIT_HELPMARK] = "NiaSplit é uma implementação completa de speedrun que contém um temporizador moderno e auto-split integradas.\n\nA rota padrão do auto-split é definida como Any% Pro, você pode desativar o auto-split se quiser mostrar apenas o temporizador.\nO removedor de loadings é habilitado por padrão, ele pausa o temporizador entre carregamentos e ao pressionar o pausa com o esc.";
+
+    // Speedrun Utilities
+    Portuguese[TranslationKeys::SPEEDRUN_UTILS] = "Ferramentas de Speedrun";
+
+    // Fast Switch Warnings
+    Portuguese[TranslationKeys::WARNING_FAST_SWITCH] = "Aviso: Troca rápida está ativada!";
+    Portuguese[TranslationKeys::FAST_SWITCH_BLOCKED] = "Não pode ser ativado enquanto a Troca Rápida estiver ativa.";
+    Portuguese[TranslationKeys::CRITICAL_WARNING_FAST_SWITCH] = "Não pode ser ativado enquanto o Fast Switch estiver ativo.";
+
+    //=============================================================================
+    // 21. NOTIFICATION SYSTEM
+    //=============================================================================
+    Portuguese[TranslationKeys::FEATURE_NOTIFICATIONS] = "Sistema de Notificações";
+    Portuguese[TranslationKeys::FEATURE_NOTIFICATIONS_DESC] = "Mostra todas as notificações na tela.\nDesativar não é recomendado.";
+
+    //=============================================================================
+    // 22. PERFORMANCE FEATURES
+    //=============================================================================
+    Portuguese[TranslationKeys::PERFORMANCE_TRACKER] = "Rastreador de Desempenho";
+    Portuguese[TranslationKeys::ADVANCED_OPTIMIZATION] = "Otimização Avançada";
+    Portuguese[TranslationKeys::OPTIMIZATION_FEATURES] = "Recursos de Otimização";
+
+    //=============================================================================
+    // 23. GAMEPLAY FEATURES
+    //=============================================================================
+    Portuguese[TranslationKeys::GAMEPLAY] = "Jogabilidade";
+    Portuguese[TranslationKeys::REMOVE_MELEE] = "Remover Melees";
+    Portuguese[TranslationKeys::REMOVE_MELEE_HELPMARK] = "Remove completamente os prompts de melees.";
+
+    // Ashley Jumps Alone
+    Portuguese[TranslationKeys::ASHLEY_JUMPS_ALONE] = "Ashley Pula Sozinha";
+    Portuguese[TranslationKeys::ASHLEY_JUMPS_ALONE_HELPMARK] = "Faz com que Ashley consiga pular de lugares altos sozinha.\nÉ necessário instalar o arquivo especial que está no sistema online do modloader.";
+    Portuguese[TranslationKeys::ASHLEY_JUMPS_ALONE_REQUIRES_MOD] = "Esta função requer os arquivos do Ashley Jumps Alone.\nInstale-o pelo Modloader. Somente para HD Project!";
+
+    // Heavy Ganados
+    Portuguese[TranslationKeys::MELEE_HEAVY_GANADOS] = "Melee Ganados Pesados";
+    Portuguese[TranslationKeys::MELEE_HEAVY_GANADOS_HELPMARK] = "Permite chutar ganados pesados como Megas e JJ";
+
+    // Freeze Effects
+    Portuguese[TranslationKeys::FX_FREEZE_ENEMIES] = "Congelar Inimigos com Efeitos";
+    Portuguese[TranslationKeys::FX_FREEZE_ENEMIES_HELPMARK] = "Congela os inimigos sem que eles reajam, também muda a cor do jogo para um tom azulado e emite um som 'lento' ao ativar/desativar.\n\nConfigure uma tecla de atalho para ativar, Tecla Padrão: K";
+
+    //=============================================================================
+    // 24. MELEE SELECTION
+    //=============================================================================
+    Portuguese[TranslationKeys::HIGH_MELEE_SELECTION] = "Seleção de Melee Alto";
+    Portuguese[TranslationKeys::LOW_MELEE_SELECTION] = "Seleção de Melee Baixo";
+    Portuguese[TranslationKeys::SELECT_ALL] = "Selecionar Todos";
+    Portuguese[TranslationKeys::SELECT_MINIMUM] = "Mínimo (2)";
+
+    //=============================================================================
+    // 25. INVENTORY MANAGEMENT
+    //=============================================================================
+    Portuguese[TranslationKeys::INVENTORY] = "Inventário";
+    Portuguese[TranslationKeys::INVENTORY_MANAGEMENT] = "Gerenciamento de Inventário";
+    Portuguese[TranslationKeys::INVENTORY_SETTINGS] = "Configurações de Inventário";
+    Portuguese[TranslationKeys::ITEM_COLLECTION] = "Coleção de Itens";
+    Portuguese[TranslationKeys::RESOURCE_MANAGEMENT] = "Gerenciamento de Recursos";
+    Portuguese[TranslationKeys::PLAGA_RESOURCES] = "Recursos de Plagas";
+    Portuguese[TranslationKeys::MONEY_MANAGEMENT] = "Gerenciamento de Dinheiro";
+    Portuguese[TranslationKeys::ENEMY_INTERACTION] = "Interação com Inimigos";
+    Portuguese[TranslationKeys::CUTSCENE_AND_QTE] = "Cutscenes e QTE";
+
+    //=============================================================================
+    // 26. SPECIAL FEATURES
+    //=============================================================================
+    Portuguese[TranslationKeys::SPECIAL_ABILITIES] = "Habilidades Especiais";
+    Portuguese[TranslationKeys::CHARACTER_ABILITIES] = "Habilidades de Personagem";
+    Portuguese[TranslationKeys::ADVANCED_WEAPON_FEATURES] = "Recursos Avançados de Armas";
+
+    //=============================================================================
+    // 27. CUSTOM POSITIONS
+    //=============================================================================
+    Portuguese[TranslationKeys::CUSTOM_POSITIONS] = "Posições Personalizadas";
+
+    //=============================================================================
+    // 28. RELOAD ESL
+    //=============================================================================
+    Portuguese[TranslationKeys::ESL_ON_RETRY] = "Recarregar ESL";
+    Portuguese[TranslationKeys::ESL_ON_RETRY_HELPMARK] = "Recarrega inimigos do ESL ao reiniciar checkpoint, útil para modders.";
+
+    //=============================================================================
+    // 29. CHARACTER FEATURES
+    //=============================================================================
+    Portuguese[TranslationKeys::MATILDA_QUICKTURN] = "Matilda Quickturn";
+    Portuguese[TranslationKeys::MATILDA_QUICKTURN_HELPMARK] = "Restaura o Quickturn da Matilda desativado no jogo original.";
+
+    //=============================================================================
+    // 30. SPECIAL CLEANER
+    //=============================================================================
+    Portuguese[TranslationKeys::SPECIAL_CLEANER] = "Limpeza Especial";
+
+    //=============================================================================
+    // 31. REMOVE DROPS
+    //=============================================================================
+    Portuguese[TranslationKeys::REMOVE_DROPS] = "Remover Drops";
+    Portuguese[TranslationKeys::REMOVE_DROPS_HELPMARK] = "Remove todos os drops de inimigos.";
+
+    //=============================================================================
+    // 32. REMOVE KNIFE
+    //=============================================================================
+    Portuguese[TranslationKeys::REMOVE_KNIFE] = "Remover Faca";
+    Portuguese[TranslationKeys::REMOVE_KNIFE_HELPMARK] = "Remove a faca do jogo.";
+
+    //=============================================================================
+    // 33. NO ENEMIES DISAPPEAR
+    //=============================================================================
+    Portuguese[TranslationKeys::NO_ENEMIES_DISAPPEAR] = "Inimigos Não Desaparecem";
+    Portuguese[TranslationKeys::NO_ENEMIES_DISAPPEAR_HELPMARK] = "Os inimigos NÃO desaparecerão quando o sino da vila tocar (R101) e no castelo após o canhão (R202).\nÚtil para modders.";
+
+    //=============================================================================
+    // 34. CHARACTER SIZE CONTROL
+    //=============================================================================
+    Portuguese[TranslationKeys::CHARACTER_SIZE_CONTROL] = "Controle de Tamanho de Personagem";
+
+    //=============================================================================
+    // 35. WINDOWS AND OVERLAYS
+    //=============================================================================
+    Portuguese[TranslationKeys::WINDOW_OVERLAYS] = "Sobreposições de Janela";
+    Portuguese[TranslationKeys::OVERLAYS] = "Sobreposições";
+
+    //=============================================================================
+    // 36. SPECIFIC WINDOWS
+    //=============================================================================
+    Portuguese[TranslationKeys::WINDOW_FOV_SETTINGS] = "Configurações de FOV";
+    Portuguese[TranslationKeys::WINDOW_CROSSHAIR_COLORS] = "Cores da Mira";
+    Portuguese[TranslationKeys::WINDOW_UPDATES_VERSION] = "Atualizações e Versão";
+    Portuguese[TranslationKeys::WINDOW_CHARACTER_CONTROLS] = "Controles de Personagem";
+    Portuguese[TranslationKeys::WINDOW_AREA_JUMP] = "Pulo de Área";
+    Portuguese[TranslationKeys::WINDOW_GET_ITEM] = "Obter Item";
+    Portuguese[TranslationKeys::WINDOW_MEMORY_EDITOR] = "Editor de Memória";
+    Portuguese[TranslationKeys::WINDOW_PERFORMANCE_TRACKER] = "Rastreador";
+
+    //=============================================================================
+    // 37. PLAYER VISIBILITY
+    //=============================================================================
+    Portuguese[TranslationKeys::TEXT_PLAYER_VISIBILITY] = "Visibilidade do Jogador";
+
+    //=============================================================================
+    // 38. SYSTEM HOOKS
+    //=============================================================================
+    Portuguese[TranslationKeys::KEYBOARD_HOOK_FAILED] = "Falha ao instalar o hook do teclado: ";
+    Portuguese[TranslationKeys::MOUSE_HOOK_FAILED] = "Falha ao instalar o hook do mouse: ";
