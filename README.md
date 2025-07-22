@@ -1,6 +1,6 @@
-# Translation repository for Internal Trainer - Resident Evil 4 UHD (Steam)
+# Translation repository for Internal Trainer
 
-Thank you for helping with translations! This guide explains how to translate strings for the trainer.
+This guide explains how to translate strings for the Internal Trainer for the game Resident Evil 4 UHD from Steam.
 
 ## What You Need to Do
 
@@ -107,6 +107,7 @@ Once you've completed your translation:
 3. Your name will be added to the Hall of Fame as a translator.
 
 IMPORTANT: Russian language will NOT be accepted, do not insist, it has been banned for breach of trust.
+https://www.patreon.com/posts/internal-trainer-134470102
 
 ## Thank You!
 
